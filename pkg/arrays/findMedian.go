@@ -1,5 +1,7 @@
 package arrays
 
+import "github.com/zeromake/leetcode/pkg/utils"
+
 // FindMedianSortedArrays 查找两个数组的中位数 https://leetcode-cn.com/problems/median-of-two-sorted-arrays
 func FindMedianSortedArrays(A, B []int) float64 {
 	var (
@@ -28,13 +30,6 @@ func FindMedianSortedArrays(A, B []int) float64 {
 	return float64(right)
 }
 
-func Min(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
-}
-
 func getKth(nums1 []int, start1, end1 int, nums2 []int, start2, end2, k int) int {
 	var (
 		n = end1 - start1
@@ -50,12 +45,12 @@ func getKth(nums1 []int, start1, end1 int, nums2 []int, start2, end2, k int) int
 	}
 	if k == 1 {
 		// 比较到第 1 小的元素直接查找
-		return Min(nums1[start1], nums2[start2])
+		return utils.MinInt(nums1[start1], nums2[start2])
 	}
 	var (
 		// 比较的为 k / 2 的元素，作为下标需要减 1
-		i = start1 + Min(n, k/2) - 1
-		j = start2 + Min(m, k/2) - 1
+		i = start1 + utils.MinInt(n, k/2) - 1
+		j = start2 + utils.MinInt(m, k/2) - 1
 	)
 	// 判断比第 k 小的元素直接放弃
 	if nums1[i] > nums2[j] {
@@ -114,8 +109,8 @@ func getKth2(nums1 []int, nums2 []int, rank int) int {
 		if n == 0 {
 			break
 		}
-		i := start1 + Min((rank/2), n) - 1
-		j := start2 + Min((rank/2), m) - 1
+		i := start1 + utils.MinInt((rank/2), n) - 1
+		j := start2 + utils.MinInt((rank/2), m) - 1
 		if nums1[i] > nums2[j] {
 			rank = rank - (j - start2 + 1)
 			start2 = j + 1
@@ -130,7 +125,7 @@ func getKth2(nums1 []int, nums2 []int, rank int) int {
 	if end2-start2 == 0 {
 		return nums1[start1+rank-1]
 	}
-	return Min(nums1[start1], nums2[start2])
+	return utils.MinInt(nums1[start1], nums2[start2])
 }
 
 func FindMedianSortedArrays3(A, B []int) float64 {
