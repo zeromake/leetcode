@@ -6,4 +6,5 @@
 - [x] [0004-medianOfTwoSortedArrays](pkg/arrays/findMedian.go): `array`, `median`
 - [x] [0009-isPalindrome](pkg/math/isPalindrome.go): `math`, `bit`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
+- [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
