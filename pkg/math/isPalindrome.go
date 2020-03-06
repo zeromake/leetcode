@@ -1,5 +1,6 @@
 package math
 
+// isPalindrome 是否为回文数 https://leetcode-cn.com/problems/palindrome-number/
 func isPalindrome(num int) bool {
 	if num == 0 {
 		return true

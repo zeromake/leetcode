@@ -35,9 +35,9 @@ func numToList(num int) *ListNode {
 func TestAddTwoNumbers(t *testing.T) {
 	testRes := [][3]*ListNode{
 		[3]*ListNode{
-			numToList(342),
+			numToList(742),
 			numToList(465),
-			numToList(807),
+			numToList(1207),
 		},
 		[3]*ListNode{
 			numToList(81),

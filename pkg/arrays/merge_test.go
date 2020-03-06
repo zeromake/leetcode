@@ -18,15 +18,15 @@ func TestMerge(t *testing.T) {
 	res := []merge{
 		merge{
 			A: []int{
-				1, 2, 3, 0, 0, 0,
+				2, 3, 0, 0, 0,
 			},
-			M: 3,
+			M: 2,
 			B: []int{
 				2, 5, 6,
 			},
 			N: 3,
 			Res: []int{
-				1, 2, 2, 3, 5, 6,
+				2, 2, 3, 5, 6,
 			},
 		},
 		merge{
