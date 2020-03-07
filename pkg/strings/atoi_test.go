@@ -2,17 +2,22 @@ package strings
 
 import (
 	"github.com/stretchr/testify/assert"
+	"math"
 	"testing"
 )
 
-func TestLengthOfLongestSubstring(t *testing.T) {
+func TestAtoi(t *testing.T) {
 	res := []string{
-		"abcabcbb",
+		" -42",
+		"3.14159",
+		"2000000000000000000",
 	}
 	result := []int{
+		-42,
 		3,
+		math.MaxInt32,
 	}
 	for i, r := range res {
-		assert.Equal(t, LengthOfLongestSubstring(r), result[i])
+		assert.Equal(t, Atoi(r), result[i])
 	}
 }
