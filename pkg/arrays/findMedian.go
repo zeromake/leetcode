@@ -137,8 +137,8 @@ func FindMedianSortedArrays3(A, B []int) float64 {
 	)
 	if (lens & 1) == 0 {
 		// 偶数处理
-		rigth := (lens + 2) / 2
-		return float64(getKth2(A, B, left)+getKth2(A, B, rigth)) / 2.0
+		right := (lens + 2) / 2
+		return float64(getKth2(A, B, left)+getKth2(A, B, right)) / 2.0
 	}
 	return float64(getKth2(A, B, left))
 }
