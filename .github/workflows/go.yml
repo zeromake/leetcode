@@ -22,7 +22,7 @@ jobs:
 
       - name: Get dependencies
         run: |
-          go tidy
+          go mod tidy
 
       - name: Test
         run: make cover
