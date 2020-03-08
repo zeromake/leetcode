@@ -2,6 +2,7 @@ package math
 
 import (
 	"github.com/stretchr/testify/assert"
+	"math"
 	"testing"
 )
 
@@ -14,6 +15,10 @@ func TestReverse(t *testing.T) {
 		{
 			120,
 			21,
+		},
+		{
+			math.MaxInt32,
+			0,
 		},
 	}
 	for _, r := range result {

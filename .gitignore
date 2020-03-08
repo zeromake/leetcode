@@ -1,11 +1,3 @@
 .DS_Store
-node_modules/
-*.log
 .idea
-/libraries/
-/library/
-/dist/
-/configs/config.toml
-*.bin
-/minio
-*.out
+/coverage

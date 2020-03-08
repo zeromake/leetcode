@@ -29,10 +29,22 @@ func TestOrangesRotting(t *testing.T) {
 				1, 0, 1,
 			},
 		},
+		{
+			{
+				1, 1, 1,
+			},
+			{
+				1, 2, 1,
+			},
+			{
+				1, 0, 1,
+			},
+		},
 	}
 	count := []int{
 		4,
 		-1,
+		2,
 	}
 	for i, r := range res {
 		rr := orangesRotting(r)
@@ -56,6 +68,17 @@ func TestOrangesRotting(t *testing.T) {
 			},
 			{
 				0, 1, 1,
+			},
+			{
+				1, 0, 1,
+			},
+		},
+		{
+			{
+				1, 1, 1,
+			},
+			{
+				1, 2, 1,
 			},
 			{
 				1, 0, 1,

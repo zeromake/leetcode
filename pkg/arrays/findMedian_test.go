@@ -57,6 +57,15 @@ func TestFindMedianSortedArrays(t *testing.T) {
 			},
 			2.0,
 		},
+		median{
+			[]int{
+				1,
+			},
+			[]int{
+				2, 3, 4, 5,
+			},
+			3.0,
+		},
 	}
 	for _, r := range res {
 		rr := FindMedianSortedArrays(r.A, r.B)

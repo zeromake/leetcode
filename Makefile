@@ -2,6 +2,6 @@ test:
 	go test ./...
 
 cover:
-	./scripts/cover.sh
+	./scripts/cover.sh count
 cover-html:
 	./scripts/cover.sh html

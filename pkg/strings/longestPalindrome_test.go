@@ -15,6 +15,10 @@ func TestLongestPalindrome(t *testing.T) {
 			"cbbd",
 			"bb",
 		},
+		{
+			"",
+			"",
+		},
 	}
 	for _, r := range res {
 		rr := LongestPalindrome(r[0])

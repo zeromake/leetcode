@@ -22,5 +22,23 @@ func TestMaxQueue(t *testing.T)  {
 	queue.Push_back(525)
 	assert.Equal(t, queue.Pop_front(), 525)
 	assert.Equal(t, queue.Max_value(), -1)
+	queue.Push_back(666)
+	queue.Push_back(868)
+	assert.Equal(t, queue.Max_value(), 868)
+	assert.Equal(t, queue.Pop_front(), 666)
+	assert.Equal(t, queue.Max_value(), 868)
+	assert.Equal(t, queue.Pop_front(), 868)
+	assert.Equal(t, queue.Max_value(), -1)
+
+	queue.Push_back(868)
+	queue.Push_back(666)
+	queue.Push_back(866)
+	assert.Equal(t, queue.Max_value(), 868)
+	assert.Equal(t, queue.Pop_front(), 868)
+	assert.Equal(t, queue.Max_value(), 866)
+	assert.Equal(t, queue.Pop_front(), 666)
+	assert.Equal(t, queue.Max_value(), 866)
+	assert.Equal(t, queue.Pop_front(), 866)
+	assert.Equal(t, queue.Max_value(), -1)
 }
 
