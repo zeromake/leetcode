@@ -1,3 +1,7 @@
+# LeetCode
+
+![Go](https://github.com/zeromake/leetcode/workflows/Go/badge.svg?branch=master)
+
 ## Todo
 
 - [x] [0001-twoSum](pkg/arrays/twoSum.go): `array`, `dynamic-programming`
