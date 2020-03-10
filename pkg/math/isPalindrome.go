@@ -6,7 +6,7 @@ func isPalindrome(num int) bool {
 		return true
 	}
 	// 边界处理
-	if num < 0 || (num % 10) == 0 {
+	if num < 0 || (num%10) == 0 {
 		return false
 	}
 	var (
@@ -14,8 +14,8 @@ func isPalindrome(num int) bool {
 	)
 	// 分解数字并倒序
 	for num > revertedNumber {
-		revertedNumber = revertedNumber * 10 + num % 10
+		revertedNumber = revertedNumber*10 + num%10
 		num /= 10
 	}
-	return num == revertedNumber || num == revertedNumber / 10
+	return num == revertedNumber || num == revertedNumber/10
 }

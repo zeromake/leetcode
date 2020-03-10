@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestMaxQueue(t *testing.T)  {
+func TestMaxQueue(t *testing.T) {
 	queue := Constructor()
 	assert.Equal(t, queue.Max_value(), -1)
 	assert.Equal(t, queue.Pop_front(), -1)
@@ -41,4 +41,3 @@ func TestMaxQueue(t *testing.T)  {
 	assert.Equal(t, queue.Pop_front(), 866)
 	assert.Equal(t, queue.Max_value(), -1)
 }
-

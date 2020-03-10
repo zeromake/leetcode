@@ -3,7 +3,7 @@ package math
 // DistributeCandies 分糖果 https://leetcode-cn.com/problems/distribute-candies-to-people
 func DistributeCandies(candies int, numPeople int) []int {
 	var (
-		num = 0
+		num    = 0
 		people = make([]int, numPeople)
 	)
 	for candies != 0 {

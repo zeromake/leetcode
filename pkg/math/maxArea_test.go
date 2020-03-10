@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestMaxArea(t *testing.T)  {
+func TestMaxArea(t *testing.T) {
 	heights := [][]int{
 		{
 			1, 8, 6, 2, 5, 4, 8, 3, 7,
@@ -19,4 +19,3 @@ func TestMaxArea(t *testing.T)  {
 		assert.Equal(t, area, result[i])
 	}
 }
-

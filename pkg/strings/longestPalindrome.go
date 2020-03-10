@@ -9,7 +9,7 @@ func LongestPalindrome(s string) string {
 	}
 	var (
 		start = 0
-		end = 0
+		end   = 0
 	)
 	for i := 0; i < len(s); i++ {
 		// 扩展以 i 为中心
@@ -17,12 +17,12 @@ func LongestPalindrome(s string) string {
 		// 扩展以两个字符为中心
 		len2 := expandAroundCenter(s, i, i+1)
 		lens := utils.MaxInt(len1, len2)
-		if lens > end - start {
-			start = i - (lens - 1) / 2
-			end = i + lens / 2
+		if lens > end-start {
+			start = i - (lens-1)/2
+			end = i + lens/2
 		}
 	}
-	return s[start: end+1]
+	return s[start : end+1]
 }
 
 func expandAroundCenter(s string, left, right int) int {

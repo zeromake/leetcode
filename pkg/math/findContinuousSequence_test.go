@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestFindContinuousSequence(t *testing.T)  {
+func TestFindContinuousSequence(t *testing.T) {
 	res := []int{
 		9,
 	}
@@ -20,4 +20,3 @@ func TestFindContinuousSequence(t *testing.T)  {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

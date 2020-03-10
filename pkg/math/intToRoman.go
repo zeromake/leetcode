@@ -46,7 +46,7 @@ func IntToRoman(num int) string {
 
 func IntToRoman2(num int) string {
 	d := [4][]string{
-		{"","I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
+		{"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
 		{"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
 		{"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
 		// 由于限制了最大值所以最大3000

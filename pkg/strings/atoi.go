@@ -11,8 +11,8 @@ func Atoi(str string) int {
 		return 0
 	}
 	var (
-		nums []byte
-		flag = 1
+		nums  []byte
+		flag  = 1
 		start bool
 	)
 	for i := 0; i < lens; i++ {
@@ -48,9 +48,9 @@ func Atoi(str string) int {
 	sum := 0
 	for _, b := range nums {
 		ii := int(b - '0')
-		sum = sum * 10 + ii
+		sum = sum*10 + ii
 		// 溢出判断
-		if flag == -1 && sum * flag < math.MinInt32 {
+		if flag == -1 && sum*flag < math.MinInt32 {
 			return math.MinInt32
 		} else if flag == 1 && sum > math.MaxInt32 {
 			return math.MaxInt32

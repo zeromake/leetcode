@@ -18,10 +18,10 @@ func TestDistributeCandies(t *testing.T) {
 	}
 	result := [][]int{
 		{
-			1,2,3,1,
+			1, 2, 3, 1,
 		},
 		{
-			5,2,3,
+			5, 2, 3,
 		},
 	}
 	for i, r := range res {

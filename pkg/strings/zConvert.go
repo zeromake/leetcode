@@ -9,14 +9,14 @@ func ZConvert(s string, rows int) string {
 	}
 	var (
 		result = make([]string, rows)
-		flag = -1
-		row = 0
+		flag   = -1
+		row    = 0
 	)
 	for i := 0; i < len(s); i++ {
 		c := s[i]
 		result[row] += string(c)
 		// 实际上就是 0 为正续写入，rows - 1 为倒序写入长度为 rows 的结果
-		if row == 0 || row == rows - 1 {
+		if row == 0 || row == rows-1 {
 			flag = -flag
 		}
 		row += flag

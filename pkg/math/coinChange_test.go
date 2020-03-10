@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestCoinChange(t *testing.T)  {
+func TestCoinChange(t *testing.T) {
 	coins := [][]int{
 		{
 			1,
@@ -15,8 +15,7 @@ func TestCoinChange(t *testing.T)  {
 		{
 			2,
 		},
-		{
-		},
+		{},
 	}
 	amounts := []int{
 		11,
@@ -33,4 +32,3 @@ func TestCoinChange(t *testing.T)  {
 		assert.Equal(t, r, result[i])
 	}
 }
-
