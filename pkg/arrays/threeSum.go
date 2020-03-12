@@ -2,19 +2,16 @@ package arrays
 
 import "sort"
 
-type IntSlice []int
-
-func (s IntSlice) Len() int           { return len(s) }
-func (s IntSlice) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
-func (s IntSlice) Less(i, j int) bool { return s[i] < s[j] }
-
 func ThreeSumTarget(nums []int, target int) [][]int {
 	var (
 		result = make([][]int, 0)
 		lens = len(nums)
 	)
-	sort.Sort(IntSlice(nums))
-	for i := 0; i < lens - 1; i ++ {
+	if lens < 3 {
+		return result
+	}
+	sort.Ints(nums)
+	for i := 0; i < lens - 3; i ++ {
 		//
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
@@ -52,6 +49,7 @@ func ThreeSumTarget(nums []int, target int) [][]int {
 	return result
 }
 
+// ThreeSum 三数之和 https://leetcode-cn.com/problems/3sum
 func ThreeSum(nums []int) [][]int {
 	return ThreeSumTarget(nums, 0)
 }
