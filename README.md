@@ -13,6 +13,7 @@
 - [x] [0007-reverse](pkg/math/reverse.go): `number`, `reverse`, `bit`
 - [x] [0008-atoi](pkg/strings/atoi.go): `string`
 - [x] [0009-isPalindrome](pkg/math/isPalindrome.go): `math`, `bit`
+- [ ] [0010-isMatch](): `string`, `match`
 - [x] [0011-maxArea](pkg/math/maxArea.go): `math`, `ptr`
 - [x] [0012-intToRoman](pkg/math/intToRoman.go): `math`, `bit`
 - [x] [0013-romanToInt](pkg/math/romanToInt.go): `math`, `bit`
