@@ -19,8 +19,12 @@
 - [x] [0014-longestCommonPrefix](pkg/strings/longestCommonPrefix.go): `string`
 - [x] [0015-threeSum](pkg/arrays/threeSum.go): `array`, `sum`
 - [x] [0016-threeSumClosest](pkg/arrays/threeSumClosest.go): `array`, `sum`
+- [x] [0017-letterCombinations](pkg/strings/letterCombinations.go): `string`
+- [x] [0018-fourSum](pkg/arrays/fourSum.go): `array`, `sum`
+- [x] [0019-removeNthFromEnd](pkg/links/removeNthFromEnd.go): `link`, `ptr`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
+- [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`

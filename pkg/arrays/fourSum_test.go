@@ -5,46 +5,41 @@ import (
 	"testing"
 )
 
-func TestThreeSum(t *testing.T) {
+func TestFourSum(t *testing.T) {
 	arrs := [][]int{
 		{
+			1,
+			9,
+			9,
+			0,
 			-1,
 			0,
-			0,
-			1,
-			1,
+			-2,
 			2,
-			-1,
-			-1,
-			-4,
-		},
-		{
-			1,
 			2,
 		},
 		{
 			0,
 			0,
 			0,
+			0,
 		},
+		{},
 	}
 	result := [][][]int{
 		{
-			{-1, -1, 2},
-			{-1, 0, 1},
+			{-2, -1, 1, 2},
+			{-2, 0, 0, 2},
+			{-1, 0, 0, 1},
 		},
 		{
+			{0, 0, 0, 0},
 		},
-		{
-			{0, 0, 0},
-		},
+		{},
 	}
-
 	for i, r := range arrs {
-		rr := ThreeSum(r)
-		assert.Equal(t, rr, result[i])
-
-		rr = ThreeSumTarget(r, 0)
+		rr := FourSum(r, 0)
 		assert.Equal(t, rr, result[i])
 	}
 }
+
