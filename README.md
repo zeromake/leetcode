@@ -26,9 +26,11 @@
 - [x] [0020-isValid](pkg/strings/isValid.go): `string`, `stack`, `match`
 - [x] [0021-mergeTwoLists](pkg/links/mergeTwoLists.go): `link`, `merge`, `sort`
 - [x] [0022-generateParenthesis](pkg/strings/generateParenthesis.go): `string`
-- [x] [0021-mergeKLists](pkg/links/mergeKLists.go): `link`, `merge`, `sort`
+- [x] [0023-mergeKLists](pkg/links/mergeKLists.go): `link`, `merge`, `sort`
+- [x] [0024-swapPairs](pkg/links/swapPairs.go): `swap`, `link`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
+- [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
