@@ -9,8 +9,8 @@ func LongestCommonPrefix(strs []string) string {
 		count = 0
 		// 另外一种先找出最短
 		lens = len(strs[0])
-		ss = strs[0]
-		arr = strs[1:]
+		ss   = strs[0]
+		arr  = strs[1:]
 	)
 
 loop:

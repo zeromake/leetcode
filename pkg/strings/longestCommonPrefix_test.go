@@ -21,8 +21,7 @@ func TestLongestCommonPrefix(t *testing.T) {
 			"test1",
 			"test",
 		},
-		{
-		},
+		{},
 	}
 	result := []string{
 		"fl",
@@ -35,4 +34,3 @@ func TestLongestCommonPrefix(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

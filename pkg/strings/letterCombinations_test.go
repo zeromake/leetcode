@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestLetterCombinations(t *testing.T)  {
+func TestLetterCombinations(t *testing.T) {
 	strings := []string{
 		"23",
 		"023",
@@ -39,4 +39,3 @@ func TestLetterCombinations(t *testing.T)  {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

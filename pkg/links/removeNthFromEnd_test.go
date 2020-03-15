@@ -17,4 +17,3 @@ func TestRemoveNthFromEnd(t *testing.T) {
 		assert.Equal(t, rr.String(), result[i].String())
 	}
 }
-

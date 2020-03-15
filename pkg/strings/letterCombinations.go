@@ -1,7 +1,7 @@
 package strings
 
 func LetterCombinations(digits string) []string {
-	numToLetter := map[byte]string {
+	numToLetter := map[byte]string{
 		'2': "abc",
 		'3': "def",
 		'4': "ghi",
@@ -12,19 +12,18 @@ func LetterCombinations(digits string) []string {
 		'9': "wxyz",
 	}
 	res := []string{""}
-	for i := 0; i < len(digits); i ++ {
+	for i := 0; i < len(digits); i++ {
 		digit := digits[i]
 		if str, ok := numToLetter[digit]; ok {
 			pre := res
 			res = []string{}
-			for j := 0; j < len(str); j ++ {
+			for j := 0; j < len(str); j++ {
 				num := str[j]
 				for _, v := range pre {
-					res = append(res, v + string(num))
+					res = append(res, v+string(num))
 				}
 			}
 		}
 	}
 	return res
 }
-

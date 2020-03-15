@@ -5,19 +5,19 @@ import "sort"
 func FourSum(nums []int, target int) [][]int {
 	var (
 		result = make([][]int, 0)
-		lens = len(nums)
+		lens   = len(nums)
 	)
 	if lens < 4 {
 		return result
 	}
 	sort.Ints(nums)
-	for i := 0; i < lens - 3; i ++ {
+	for i := 0; i < lens-3; i++ {
 		//
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
-		for j := i + 1; j < lens - 2; j++ {
-			if j > i + 1 && nums[j] == nums[j-1] {
+		for j := i + 1; j < lens-2; j++ {
+			if j > i+1 && nums[j] == nums[j-1] {
 				continue
 			}
 			left := j + 1
@@ -32,22 +32,22 @@ func FourSum(nums []int, target int) [][]int {
 						nums[right],
 					})
 					for left < right {
-						if nums[left] == nums[left + 1] {
+						if nums[left] == nums[left+1] {
 							left++
 							continue
 						}
-						if nums[right] == nums[right - 1] {
+						if nums[right] == nums[right-1] {
 							right--
 							continue
 						}
 						break
 					}
-					left ++
-					right --
+					left++
+					right--
 				} else if sum > target {
-					right --
+					right--
 				} else {
-					left ++
+					left++
 				}
 			}
 		}

@@ -40,4 +40,3 @@ func TestThreeSumClosest(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

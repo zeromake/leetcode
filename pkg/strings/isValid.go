@@ -17,7 +17,7 @@ func IsValid(s string) bool {
 				return false
 			}
 			stack.Remove(back)
-		} else{
+		} else {
 			return false
 		}
 	}

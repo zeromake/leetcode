@@ -6,7 +6,7 @@ func CanThreePartsEqualSum(arr []int) bool {
 	for _, a := range arr {
 		sum += a
 	}
-	if sum % 3 != 0 {
+	if sum%3 != 0 {
 		return false
 	}
 	num := sum / 3
@@ -14,19 +14,18 @@ func CanThreePartsEqualSum(arr []int) bool {
 	leftNum := arr[left]
 	right := len(arr) - 1
 	rightNum := arr[right]
-	for left + 1 < right {
+	for left+1 < right {
 		if leftNum == num && rightNum == num {
 			return true
 		}
 		if leftNum != num {
-			left ++
+			left++
 			leftNum += arr[left]
 		}
 		if rightNum != num {
-			right --
+			right--
 			rightNum += arr[right]
 		}
 	}
 	return false
 }
-

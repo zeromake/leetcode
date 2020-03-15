@@ -10,7 +10,7 @@ func LengthOfLIS(nums []int) int {
 	for _, num := range nums[1:] {
 		lens := len(cell)
 		// 发现比最后的数大说明是上升序列存到后面
-		if num > cell[lens - 1] {
+		if num > cell[lens-1] {
 			cell = append(cell, num)
 			continue
 		}
@@ -36,12 +36,12 @@ func LengthOfLIS2(nums []int) int {
 	for _, num := range nums[1:] {
 		lens := len(cell)
 		// 发现比最后的数大说明是上升序列存到后面
-		if num > cell[lens - 1] {
+		if num > cell[lens-1] {
 			cell = append(cell, num)
 			continue
 		}
 		// 可优化为二分查找比当前小的数
-		left, right := 0, lens - 1
+		left, right := 0, lens-1
 		for left < right {
 			m := (left + right - 1) / 2
 			if num > cell[m] {

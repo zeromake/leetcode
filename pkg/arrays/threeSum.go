@@ -5,13 +5,13 @@ import "sort"
 func ThreeSumTarget(nums []int, target int) [][]int {
 	var (
 		result = make([][]int, 0)
-		lens = len(nums)
+		lens   = len(nums)
 	)
 	if lens < 3 {
 		return result
 	}
 	sort.Ints(nums)
-	for i := 0; i < lens - 2; i ++ {
+	for i := 0; i < lens-2; i++ {
 		//
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
@@ -27,22 +27,22 @@ func ThreeSumTarget(nums []int, target int) [][]int {
 					nums[right],
 				})
 				for left < right {
-					if nums[left] == nums[left + 1] {
+					if nums[left] == nums[left+1] {
 						left++
 						continue
 					}
-					if nums[right] == nums[right - 1] {
+					if nums[right] == nums[right-1] {
 						right--
 						continue
 					}
 					break
 				}
-				left ++
-				right --
+				left++
+				right--
 			} else if sum > target {
-				right --
+				right--
 			} else {
-				left ++
+				left++
 			}
 		}
 	}
