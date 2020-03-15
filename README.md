@@ -23,11 +23,14 @@
 - [x] [0017-letterCombinations](pkg/strings/letterCombinations.go): `string`
 - [x] [0018-fourSum](pkg/arrays/fourSum.go): `array`, `sum`
 - [x] [0019-removeNthFromEnd](pkg/links/removeNthFromEnd.go): `link`, `ptr`
-- [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
+- [x] [0020-isValid](pkg/strings/isValid.go): `string`, `stack`, `match`
+- [x] [0021-mergeTwoLists](pkg/links/mergeTwoLists.go): `link`, `merge`, `sort`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
+- [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
+- [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
