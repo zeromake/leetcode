@@ -5,17 +5,24 @@ import (
 	"testing"
 )
 
-func TestSwapPairs(t *testing.T) {
+func TestReverseKGroup(t *testing.T) {
 	links := []*ListNode{
-		NumToList(654321),
 		NumToList(54321),
+		NumToList(1),
+		NumToList(654321),
+	}
+	k := []int{
+		2,
+		1,
+		2,
 	}
 	result := []*ListNode{
-		NumToList(563412),
 		NumToList(53412),
+		NumToList(1),
+		NumToList(563412),
 	}
 	for i, r := range links {
-		rr := SwapPairs(r)
+		rr := ReverseKGroup(r, k[i])
 		assert.Equal(t, rr.String(), result[i].String())
 	}
 }
