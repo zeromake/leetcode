@@ -7,3 +7,7 @@ cover:
 	go tool cover -func=coverage/coverage.cov
 cover-html: cover
 	go tool cover -html=coverage/coverage.cov -o coverage/coverage.html
+
+bench:
+	go test -bench=. -benchmem ./...
+

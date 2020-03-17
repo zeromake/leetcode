@@ -32,6 +32,8 @@
 - [x] [0026-removeDuplicates](pkg/arrays/removeDuplicates.go): `array`, `remove`, `zero-memory`
 - [x] [0027-removeElement](pkg/arrays/removeElement.go): `array`, `remove`, `zero-memory`
 - [x] [0028-strStr](pkg/strings/strStr.go): `string`, `find`, `substring`
+- [x] [0029-divide](pkg/math/divide.go): `divide`, `<<`, `>>`, `-`
+- [x] [0030-findSubstring](pkg/strings/findSubstring.go): `string`, `hashmap`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
@@ -42,6 +44,7 @@
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
+- [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`
