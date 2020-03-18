@@ -35,6 +35,7 @@
 - [x] [0029-divide](pkg/math/divide.go): `divide`, `<<`, `>>`, `-`
 - [x] [0030-findSubstring](pkg/strings/findSubstring.go): `string`, `hashmap`
 - [x] [0031-nextPermutation](pkg/math/nextPermutation.go): `array`, `math`
+- [x] [0032-longestValidParentheses](pkg/strings/longestValidParentheses.go): `string`, `()`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
