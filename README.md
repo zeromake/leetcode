@@ -34,6 +34,7 @@
 - [x] [0028-strStr](pkg/strings/strStr.go): `string`, `find`, `substring`
 - [x] [0029-divide](pkg/math/divide.go): `divide`, `<<`, `>>`, `-`
 - [x] [0030-findSubstring](pkg/strings/findSubstring.go): `string`, `hashmap`
+- [x] [0031-nextPermutation](pkg/math/nextPermutation.go): `array`, `math`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
@@ -41,6 +42,7 @@
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
+- [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
