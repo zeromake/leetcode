@@ -5,7 +5,7 @@ func SearchRange(nums []int, target int) []int {
 		left  = 0
 		right = len(nums) - 1
 		mid   = right / 2
-		resp = []int{-1, -1}
+		resp  = []int{-1, -1}
 	)
 	if right < 0 {
 		return resp

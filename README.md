@@ -36,11 +36,15 @@
 - [x] [0030-findSubstring](pkg/strings/findSubstring.go): `string`, `hashmap`
 - [x] [0031-nextPermutation](pkg/math/nextPermutation.go): `array`, `math`
 - [x] [0032-longestValidParentheses](pkg/strings/longestValidParentheses.go): `string`, `()`
+- [x] [0033-rotatedSearch](pkg/arrays/rotatedSearch.go): `array`, `sort`, `rotated`
+- [x] [0034-searchRange](pkg/arrays/searchRange.go): `array`, `search`, `range`
+- [x] [0035-searchInsert](pkg/arrays/searchInsert.go): `array`, `search`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
+- [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
@@ -50,5 +54,6 @@
 - [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
+- [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`
 - [x] [面试题-59-II-maxQueue](pkg/stacks/maxQueue.go): `linklist`, `stack`
