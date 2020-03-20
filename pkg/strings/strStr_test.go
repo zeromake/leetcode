@@ -7,7 +7,7 @@ import (
 
 func TestStrStr(t *testing.T) {
 	strs := [][2]string{
-		{"hello","ll"},
+		{"hello", "ll"},
 		{"hello", ""},
 		{"hh", "hello"},
 	}
@@ -21,4 +21,3 @@ func TestStrStr(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

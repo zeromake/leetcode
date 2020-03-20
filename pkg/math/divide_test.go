@@ -26,7 +26,7 @@ func TestDivide(t *testing.T) {
 		},
 		{
 			math.MinInt32 - 2,
-			math.MinInt32 >> 1 - 1,
+			math.MinInt32>>1 - 1,
 		},
 		{
 			math.MaxInt32 + 1,
@@ -36,7 +36,7 @@ func TestDivide(t *testing.T) {
 	for _, r := range nums {
 		rr := Divide(r[0], r[1])
 		if rr != math.MaxInt32 {
-			assert.Equal(t, rr, r[0] / r[1])
+			assert.Equal(t, rr, r[0]/r[1])
 		}
 
 		//rr = Divide2(r[0], r[1])

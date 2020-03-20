@@ -14,7 +14,7 @@ func TestNextPermutation(t *testing.T) {
 			5, 4, 3, 2, 1,
 		},
 		{
-			1,2,3,8, 5, 7, 6, 4,
+			1, 2, 3, 8, 5, 7, 6, 4,
 		},
 		{
 			1,
@@ -39,4 +39,3 @@ func TestNextPermutation(t *testing.T) {
 		assert.Equal(t, r, result[i])
 	}
 }
-

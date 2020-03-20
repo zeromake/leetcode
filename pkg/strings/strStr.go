@@ -9,7 +9,7 @@ func StrStr(haystack string, needle string) int {
 	for i := 0; i < len(haystack); i++ {
 		b := haystack[i]
 		if b == needle[offset] {
-			offset ++
+			offset++
 		} else {
 			i -= offset
 			offset = 0

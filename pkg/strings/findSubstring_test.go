@@ -10,7 +10,6 @@ func TestFindSubstring(t *testing.T) {
 		"barfoothefoobarman",
 		"wordgoodgoodgoodbestword",
 		"",
-
 	}
 	words := [][]string{
 		{
@@ -23,8 +22,7 @@ func TestFindSubstring(t *testing.T) {
 			"best",
 			"good",
 		},
-		{
-		},
+		{},
 	}
 	result := [][]int{
 		{0, 9},
@@ -40,7 +38,7 @@ func TestFindSubstring(t *testing.T) {
 	}
 }
 
-func BenchmarkFindSubstring(b *testing.B){
+func BenchmarkFindSubstring(b *testing.B) {
 	b.ReportAllocs()
 	s := "wordgoodgoodgoodbestword"
 	words := []string{
@@ -58,8 +56,7 @@ func BenchmarkFindSubstring(b *testing.B){
 	}
 }
 
-
-func BenchmarkFindSubstring2(b *testing.B){
+func BenchmarkFindSubstring2(b *testing.B) {
 	b.ReportAllocs()
 	s := "wordgoodgoodgoodbestword"
 	words := []string{

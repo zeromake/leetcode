@@ -4,7 +4,7 @@ package strings
 func LongestValidParentheses(s string) int {
 	var (
 		left, right = 0, 0
-		max = 0
+		max         = 0
 	)
 	// 正向计数左右括号，右大于左清零
 	for i := 0; i < len(s); i++ {
@@ -14,7 +14,7 @@ func LongestValidParentheses(s string) int {
 			right++
 		}
 		if left == right {
-			if max < right * 2 {
+			if max < right*2 {
 				max = right * 2
 			}
 		} else if right > left {
@@ -30,7 +30,7 @@ func LongestValidParentheses(s string) int {
 			right++
 		}
 		if left == right {
-			if max < right * 2 {
+			if max < right*2 {
 				max = right * 2
 			}
 		} else if left > right {
@@ -39,4 +39,3 @@ func LongestValidParentheses(s string) int {
 	}
 	return max
 }
-

@@ -7,7 +7,7 @@ func NextPermutation(nums []int) {
 		return
 	}
 	lens := len(nums)
-	i, j, k := lens - 2, lens - 1, lens - 1
+	i, j, k := lens-2, lens-1, lens-1
 	//
 	for i >= 0 && nums[i] >= nums[j] {
 		i--
@@ -21,7 +21,7 @@ func NextPermutation(nums []int) {
 		nums[i], nums[k] = nums[k], nums[i]
 	}
 	// 如果上面 i = 0 这里直接是排序效果，对 i 后面到结尾进行倒序
-	for n, m := j, len(nums) - 1; n < m; n, m = n + 1, m - 1 {
+	for n, m := j, len(nums)-1; n < m; n, m = n+1, m-1 {
 		nums[n], nums[m] = nums[m], nums[n]
 	}
 }

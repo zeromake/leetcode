@@ -18,13 +18,13 @@ func FindSubstring(s string, words []string) []int {
 	// 外层为偏移
 	for i := 0; i < oneWord; i++ {
 		var (
-			left = i
+			left  = i
 			right = i
 			count = 0
 		)
 		m2 := make(map[string]int)
-		for right + oneWord <= len(s) {
-			w := s[right: right+oneWord]
+		for right+oneWord <= len(s) {
+			w := s[right : right+oneWord]
 			right += oneWord
 
 			if _, ok := m1[w]; !ok {
@@ -32,12 +32,12 @@ func FindSubstring(s string, words []string) []int {
 				left = right
 				m2 = map[string]int{}
 			} else {
-				m2[w] ++
-				count ++
+				m2[w]++
+				count++
 				// 出现重复情况清理最前面的子串
 				for m2[w] > m1[w] {
-					t := s[left: left + oneWord]
-					count --
+					t := s[left : left+oneWord]
+					count--
 					m2[t]--
 					left += oneWord
 				}
