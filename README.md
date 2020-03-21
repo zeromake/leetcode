@@ -39,11 +39,14 @@
 - [x] [0033-rotatedSearch](pkg/arrays/rotatedSearch.go): `array`, `sort`, `rotated`
 - [x] [0034-searchRange](pkg/arrays/searchRange.go): `array`, `search`, `range`
 - [x] [0035-searchInsert](pkg/arrays/searchInsert.go): `array`, `search`
+- [x] [0039-combinationSum](pkg/arrays/combinationSum.go): `array`, `find set`, `sum`
+- [x] [0040-combinationSum2](pkg/arrays/combinationSum2.go): `array`, `find set`, `sum`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
+- [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`

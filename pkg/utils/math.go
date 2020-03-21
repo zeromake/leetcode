@@ -13,3 +13,13 @@ func MinInt(a, b int) int {
 	}
 	return b
 }
+
+func Gcd(a, b int) int {
+	for {
+		if 0 == b {
+			break
+		}
+		a, b = b, a%b
+	}
+	return a
+}
