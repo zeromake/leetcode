@@ -39,8 +39,10 @@
 - [x] [0033-rotatedSearch](pkg/arrays/rotatedSearch.go): `array`, `sort`, `rotated`
 - [x] [0034-searchRange](pkg/arrays/searchRange.go): `array`, `search`, `range`
 - [x] [0035-searchInsert](pkg/arrays/searchInsert.go): `array`, `search`
+- [x] [0038-countArraySay](pkg/strings/countArraySay.go): `count`, `say`
 - [x] [0039-combinationSum](pkg/arrays/combinationSum.go): `array`, `find set`, `sum`
 - [x] [0040-combinationSum2](pkg/arrays/combinationSum2.go): `array`, `find set`, `sum`
+- [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
@@ -51,6 +53,7 @@
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
+- [x] [0945-minIncrementForUnique](pkg/arrays/minIncrementForUnique.go): `sum`, `array`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
