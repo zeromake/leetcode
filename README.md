@@ -44,6 +44,9 @@
 - [x] [0038-countArraySay](pkg/strings/countArraySay.go): `count`, `say`
 - [x] [0039-combinationSum](pkg/arrays/combinationSum.go): `array`, `find set`, `sum`
 - [x] [0040-combinationSum2](pkg/arrays/combinationSum2.go): `array`, `find set`, `sum`
+- [x] [0041-firstMissingPositive](pkg/arrays/firstMissingPositive.go): `array`, `find`
+- [x] [0042-trap](pkg/arrays/trap.go): `array`, `ptr`
+- [x] [0043-multiply](pkg/math/multiply.go): `string`, `multiply`
 - [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -56,6 +59,7 @@
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0876-middleMode](pkg/links/middleNode.go): `middle`, `link`, `ptr`
+- [x] [0892-surfaceArea](pkg/matrix/surfaceArea.go): `matrix`, `area`
 - [x] [0945-minIncrementForUnique](pkg/arrays/minIncrementForUnique.go): `sum`, `array`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
@@ -63,6 +67,7 @@
 - [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
+- [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`
 - [x] [面试题-59-II-maxQueue](pkg/stacks/maxQueue.go): `linklist`, `stack`
