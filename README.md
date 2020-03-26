@@ -13,7 +13,7 @@
 - [x] [0007-reverse](pkg/math/reverse.go): `number`, `reverse`, `bit`
 - [x] [0008-atoi](pkg/strings/atoi.go): `string`
 - [x] [0009-isPalindrome](pkg/math/isPalindrome.go): `math`, `bit`
-- [ ] [0010-isMatch](): `string`, `match`
+- [x] [0010-isMatch](pkg/strings/isMatch.go): `string`, `match`
 - [x] [0011-maxArea](pkg/math/maxArea.go): `math`, `ptr`
 - [x] [0012-intToRoman](pkg/math/intToRoman.go): `math`, `bit`
 - [x] [0013-romanToInt](pkg/math/romanToInt.go): `math`, `bit`
@@ -62,6 +62,7 @@
 - [x] [0892-surfaceArea](pkg/matrix/surfaceArea.go): `matrix`, `area`
 - [x] [0945-minIncrementForUnique](pkg/arrays/minIncrementForUnique.go): `sum`, `array`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
+- [x] [0999-numRookCaptures](pkg/matrix/numRookCaptures.go): `matrix`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
 - [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
