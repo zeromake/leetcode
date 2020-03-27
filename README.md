@@ -47,6 +47,8 @@
 - [x] [0041-firstMissingPositive](pkg/arrays/firstMissingPositive.go): `array`, `find`
 - [x] [0042-trap](pkg/arrays/trap.go): `array`, `ptr`
 - [x] [0043-multiply](pkg/math/multiply.go): `string`, `multiply`
+- [x] [0047-permute](pkg/arrays/permute.go): `array`, `permute`
+- [x] [0048-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`
 - [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -60,6 +62,7 @@
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0876-middleMode](pkg/links/middleNode.go): `middle`, `link`, `ptr`
 - [x] [0892-surfaceArea](pkg/matrix/surfaceArea.go): `matrix`, `area`
+- [x] [0914-hasGroupsSizeX](pkg/arrays/hasGroupsSizeX.go): `array`, `group`, `gcd`
 - [x] [0945-minIncrementForUnique](pkg/arrays/minIncrementForUnique.go): `sum`, `array`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [0999-numRookCaptures](pkg/matrix/numRookCaptures.go): `matrix`

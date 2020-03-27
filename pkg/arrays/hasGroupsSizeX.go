@@ -19,11 +19,10 @@ func HasGroupsSizeX(deck []int) bool {
 		if count == last {
 			continue
 		}
-		if last > count {
-			last = utils.Gcd(last, count)
-		} else {
-			last = utils.Gcd(count, last)
+		if last < count {
+			last, count = count, last
 		}
+		last = utils.Gcd(last, count)
 		if last < 2 {
 			return false
 		}
