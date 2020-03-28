@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestMiddleNode(t *testing.T)  {
+func TestMiddleNode(t *testing.T) {
 	links := []*ListNode{
 		NumToList(54321),
 		NumToList(654321),

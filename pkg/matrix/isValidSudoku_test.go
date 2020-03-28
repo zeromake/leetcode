@@ -39,4 +39,3 @@ func TestIsValidSudoku(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

@@ -14,7 +14,7 @@ func SolveSudoku(board [][]byte) {
 			c := board[i][j]
 			if c != '.' {
 				num := c - '1'
-				index := i / 3 * 3 + j / 3
+				index := i/3*3 + j/3
 				row[i][num] = true
 				col[j][num] = true
 				box[index][num] = true
@@ -27,14 +27,14 @@ func SolveSudoku(board [][]byte) {
 func recusiveSolveSudoku(board [][]byte, row, col, box [9][9]bool, i, j int) bool {
 	if j == 9 {
 		j = 0
-		i ++
+		i++
 		if i == 9 {
 			return true
 		}
 	}
 	if board[i][j] == '.' {
 		for num := 0; num < 9; num++ {
-			index := i / 3 * 3 + j / 3
+			index := i/3*3 + j/3
 			use := !(row[i][num] || col[j][num] || box[index][num])
 			// 检查是否可用
 			if use {
@@ -54,16 +54,16 @@ func recusiveSolveSudoku(board [][]byte, row, col, box [9][9]bool, i, j int) boo
 			}
 		}
 	} else {
-		return recusiveSolveSudoku(board, row, col, box, i, j + 1)
+		return recusiveSolveSudoku(board, row, col, box, i, j+1)
 	}
 	return false
 }
 
 func SolveSudoku2(board [][]byte) {
 	var (
-		row = [9][9]bool{}
-		col = [9][9]bool{}
-		box = [9][9]bool{}
+		row    = [9][9]bool{}
+		col    = [9][9]bool{}
+		box    = [9][9]bool{}
 		whites [][2]int
 	)
 
@@ -72,7 +72,7 @@ func SolveSudoku2(board [][]byte) {
 			c := board[i][j]
 			if c != '.' {
 				num := c - '1'
-				index := i / 3 * 3 + j / 3
+				index := i/3*3 + j/3
 				row[i][num] = true
 				col[j][num] = true
 				box[index][num] = true
@@ -91,14 +91,14 @@ func recusiveSolveSudoku2(board [][]byte, row, col, box [9][9]bool, whites [][2]
 	}
 	i, j := whites[index][0], whites[index][1]
 	for num := 0; num < 9; num++ {
-		boxIndex := i / 3 * 3 + j / 3
+		boxIndex := i/3*3 + j/3
 		use := !(row[i][num] || col[j][num] || box[boxIndex][num])
 		if use {
 			row[i][num] = true
 			col[j][num] = true
 			box[boxIndex][num] = true
 			board[i][j] = byte('1' + num)
-			if recusiveSolveSudoku2(board, row, col, box, whites, index + 1) {
+			if recusiveSolveSudoku2(board, row, col, box, whites, index+1) {
 				return true
 			}
 			board[i][j] = '.'

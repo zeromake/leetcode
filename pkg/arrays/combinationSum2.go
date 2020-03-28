@@ -11,7 +11,7 @@ func CombinationSum2(nums []int, target int) [][]int {
 	return result
 }
 
-func dfs2(nums []int, path []int, left, lens, residue int, result *[][]int)  {
+func dfs2(nums []int, path []int, left, lens, residue int, result *[][]int) {
 	if residue == 0 {
 		temp := make([]int, len(path))
 		copy(temp, path)
@@ -22,9 +22,9 @@ func dfs2(nums []int, path []int, left, lens, residue int, result *[][]int)  {
 		if residue < nums[i] {
 			break
 		}
-		if i > left && nums[i] == nums[i - 1] {
+		if i > left && nums[i] == nums[i-1] {
 			continue
 		}
-		dfs2(nums, append(path, nums[i]), i + 1, lens, residue - nums[i], result)
+		dfs2(nums, append(path, nums[i]), i+1, lens, residue-nums[i], result)
 	}
 }

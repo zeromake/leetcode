@@ -8,7 +8,7 @@ import (
 func TestMinIncrementForUnique(t *testing.T) {
 	nums := [][]int{
 		{1, 2, 2},
-		{2,2,2,1},
+		{2, 2, 2, 1},
 		{1, 1, 1, 5},
 	}
 	result := []int{
@@ -23,4 +23,3 @@ func TestMinIncrementForUnique(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

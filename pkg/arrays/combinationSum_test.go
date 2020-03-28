@@ -16,7 +16,7 @@ func TestCombinationSum(t *testing.T) {
 	}
 	result := [][][]int{
 		{
-			{2, 2, 3,},
+			{2, 2, 3},
 			{7},
 		},
 		{

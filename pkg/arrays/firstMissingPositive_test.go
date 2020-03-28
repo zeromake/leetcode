@@ -21,4 +21,3 @@ func TestFirstMissingPositive(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

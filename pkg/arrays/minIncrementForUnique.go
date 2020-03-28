@@ -13,7 +13,7 @@ func MinIncrementForUnique(nums []int) int {
 
 func findPos(pos map[int]int, num int) int {
 	if m, ok := pos[num]; ok {
-		m = findPos(pos, m + 1)
+		m = findPos(pos, m+1)
 		pos[num] = m
 		return m
 	} else {
@@ -24,7 +24,7 @@ func findPos(pos map[int]int, num int) int {
 
 func MinIncrementForUnique2(nums []int) int {
 	var (
-		pos = make(map[int]int, 0)
+		pos      = make(map[int]int, 0)
 		min, max = nums[0], nums[0]
 	)
 	for _, num := range nums {
@@ -42,9 +42,9 @@ func MinIncrementForUnique2(nums []int) int {
 			dup := pos[min] - 1
 			move += dup
 			pos[min] = 1
-			pos[min + 1] += dup
+			pos[min+1] += dup
 		}
-		min ++
+		min++
 	}
 	dup := pos[max] - 1
 	move += dup * (dup + 1) / 2

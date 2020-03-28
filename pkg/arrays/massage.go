@@ -12,7 +12,7 @@ func Massage(nums []int) int {
 	dp[0] = nums[0]
 	var (
 		last = nums[0]
-		cur = nums[1]
+		cur  = nums[1]
 	)
 	if last > cur {
 		dp[1] = last
@@ -20,15 +20,15 @@ func Massage(nums []int) int {
 		dp[1] = cur
 	}
 	for i := 2; i < lens; i++ {
-		last = dp[i - 1]
-		cur = dp[i - 2] + nums[i]
+		last = dp[i-1]
+		cur = dp[i-2] + nums[i]
 		if last > cur {
 			dp[i] = last
 		} else {
 			dp[i] = cur
 		}
 	}
-	return dp[lens - 1]
+	return dp[lens-1]
 }
 
 func Massage2(nums []int) int {
@@ -43,7 +43,7 @@ func Massage2(nums []int) int {
 	dp[0] = nums[0]
 	var (
 		last = nums[0]
-		cur = nums[1]
+		cur  = nums[1]
 	)
 	if last > cur {
 		dp[1] = last
@@ -51,15 +51,15 @@ func Massage2(nums []int) int {
 		dp[1] = cur
 	}
 	for i := 2; i < lens; i++ {
-		last = dp[(i - 1) % 3]
-		cur = dp[(i - 2) % 3] + nums[i]
+		last = dp[(i-1)%3]
+		cur = dp[(i-2)%3] + nums[i]
 		if last > cur {
-			dp[i % 3] = last
+			dp[i%3] = last
 		} else {
-			dp[i % 3] = cur
+			dp[i%3] = cur
 		}
 	}
-	return dp[(lens - 1) % 3]
+	return dp[(lens-1)%3]
 }
 
 func Massage3(nums []int) int {

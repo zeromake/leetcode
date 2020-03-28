@@ -7,7 +7,7 @@ func Multiply(num1, num2 string) string {
 	var (
 		len1 = len(num1)
 		len2 = len(num2)
-		sum  = make([]byte, len1 + len2)
+		sum  = make([]byte, len1+len2)
 	)
 	// 123
 	// 456
@@ -19,13 +19,13 @@ func Multiply(num1, num2 string) string {
 	// [0, 0, 1, 3, 6, 8]
 	// 1, 2: 2 * 6 + 6 = 18
 	// [0, 0, 1, 4, 8, 8]
-	for i := len1 - 1; i >= 0 ; i -- {
+	for i := len1 - 1; i >= 0; i-- {
 		c1 := num1[i] - '0'
 		for j := len2 - 1; j >= 0; j-- {
 			c2 := num2[j] - '0'
-			num := c1 * c2 + sum[i + j + 1]
-			sum[i + j + 1] = num % 10
-			sum[i + j] += num / 10
+			num := c1*c2 + sum[i+j+1]
+			sum[i+j+1] = num % 10
+			sum[i+j] += num / 10
 		}
 	}
 	var start = 0

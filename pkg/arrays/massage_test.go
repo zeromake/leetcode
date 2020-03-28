@@ -14,7 +14,7 @@ func TestMassage(t *testing.T) {
 			2, 7, 9, 3, 1,
 		},
 		{
-			2,1,4,5,3,1,1,3,
+			2, 1, 4, 5, 3, 1, 1, 3,
 		},
 		{},
 		{
@@ -37,4 +37,3 @@ func TestMassage(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

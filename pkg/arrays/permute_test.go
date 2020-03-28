@@ -27,7 +27,6 @@ func TestPermute(t *testing.T) {
 	}
 }
 
-
 func TestPermuteUnique(t *testing.T) {
 	nums := [][]int{
 		{2, 1, 1, 3},

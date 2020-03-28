@@ -47,8 +47,10 @@
 - [x] [0041-firstMissingPositive](pkg/arrays/firstMissingPositive.go): `array`, `find`
 - [x] [0042-trap](pkg/arrays/trap.go): `array`, `ptr`
 - [x] [0043-multiply](pkg/math/multiply.go): `string`, `multiply`
-- [x] [0047-permute](pkg/arrays/permute.go): `array`, `permute`
-- [x] [0048-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`
+- [x] [0046-permute](pkg/arrays/permute.go): `array`, `permute`
+- [x] [0047-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`
+- [x] [0048-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
+- [x] [0049-groupAnagrams](pkg/strings/groupAnagrams.go): `array`, `string`
 - [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -59,6 +61,7 @@
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
+- [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0876-middleMode](pkg/links/middleNode.go): `middle`, `link`, `ptr`
 - [x] [0892-surfaceArea](pkg/matrix/surfaceArea.go): `matrix`, `area`

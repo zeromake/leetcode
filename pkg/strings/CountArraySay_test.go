@@ -35,4 +35,3 @@ func TestCountArraySay(t *testing.T) {
 		assert.Equal(t, rr, r)
 	}
 }
-

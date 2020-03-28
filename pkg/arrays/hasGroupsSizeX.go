@@ -29,4 +29,3 @@ func HasGroupsSizeX(deck []int) bool {
 	}
 	return true
 }
-

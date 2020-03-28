@@ -26,11 +26,11 @@ func permuteDfs2(nums, path []int, result *[][]int, used []bool, lens, depth int
 		if used[i] {
 			continue
 		}
-		if i > 0 && nums[i] == nums[i - 1] && !used[i - 1] {
+		if i > 0 && nums[i] == nums[i-1] && !used[i-1] {
 			continue
 		}
 		used[i] = true
-		permuteDfs2(nums, append(path, nums[i]), result, used, lens, depth + 1)
+		permuteDfs2(nums, append(path, nums[i]), result, used, lens, depth+1)
 		used[i] = false
 	}
 }

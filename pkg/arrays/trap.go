@@ -3,11 +3,11 @@ package arrays
 // Trap 接雨水 https://leetcode-cn.com/problems/trapping-rain-water
 func Trap(height []int) int {
 	var (
-		left = 0
-		right = len(height) - 1
-		leftMax = 0
+		left     = 0
+		right    = len(height) - 1
+		leftMax  = 0
 		rightMax = 0
-		area = 0
+		area     = 0
 	)
 	for left < right {
 		// 双指针扫描
@@ -18,7 +18,7 @@ func Trap(height []int) int {
 			} else {
 				area += leftMax - height[left]
 			}
-			left ++
+			left++
 		} else {
 			// 只有找到比上次的最大高度低才能存的了水
 			if height[right] >= rightMax {
@@ -26,7 +26,7 @@ func Trap(height []int) int {
 			} else {
 				area += rightMax - height[right]
 			}
-			right --
+			right--
 		}
 	}
 	return area
