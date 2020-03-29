@@ -51,7 +51,9 @@
 - [x] [0047-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`
 - [x] [0048-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
 - [x] [0049-groupAnagrams](pkg/strings/groupAnagrams.go): `array`, `string`
+- [x] [0050-myPow](pkg/math/myPow.go): `math`, `pow`
 - [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
+- [x] [0054-spiralOrder](pkg/matrix/spiralOrder.go): `matrix`, `order`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
@@ -72,6 +74,7 @@
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
 - [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
+- [x] [1162-maxDistance](pkg/matrix/maxDistance.go): `matrix`, `bfs`
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
