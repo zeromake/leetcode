@@ -47,6 +47,8 @@
 - [x] [0041-firstMissingPositive](pkg/arrays/firstMissingPositive.go): `array`, `find`
 - [x] [0042-trap](pkg/arrays/trap.go): `array`, `ptr`
 - [x] [0043-multiply](pkg/math/multiply.go): `string`, `multiply`
+- [x] [0044-isMatchWildcard](pkg/strings/isMatchWildcard.go): `string`, `match`
+- [x] [0045-jump](pkg/arrays/jump.go): `array`, `math`
 - [x] [0046-permute](pkg/arrays/permute.go): `array`, `permute`
 - [x] [0047-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`
 - [x] [0048-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
@@ -80,4 +82,5 @@
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`
-- [x] [面试题-59-II-maxQueue](pkg/stacks/maxQueue.go): `linklist`, `stack`
+- [x] [面试题-59-II-maxQueue](pkg/stacks/maxQueue.go): `link`, `stack`
+- [x] [面试题-62-lastRemaining](pkg/math/lastRemaining.go): `math`
