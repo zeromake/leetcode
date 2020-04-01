@@ -109,8 +109,8 @@ func getKth2(nums1 []int, nums2 []int, rank int) int {
 		if n == 0 {
 			break
 		}
-		i := start1 + utils.MinInt((rank/2), n) - 1
-		j := start2 + utils.MinInt((rank/2), m) - 1
+		i := start1 + utils.MinInt(rank/2, n) - 1
+		j := start2 + utils.MinInt(rank/2, m) - 1
 		if nums1[i] > nums2[j] {
 			rank = rank - (j - start2 + 1)
 			start2 = j + 1
