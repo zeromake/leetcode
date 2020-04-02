@@ -54,6 +54,8 @@
 - [x] [0048-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
 - [x] [0049-groupAnagrams](pkg/strings/groupAnagrams.go): `array`, `string`
 - [x] [0050-myPow](pkg/math/myPow.go): `math`, `pow`
+- [x] [0051-solveNQueens](pkg/matrix/solveNQueens.go): `matrix`
+- [x] [0052-totalNQueens](pkg/matrix/totalNQueens.go): `matrix`
 - [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
 - [x] [0054-spiralOrder](pkg/matrix/spiralOrder.go): `matrix`, `order`
 - [x] [0055-canJump](pkg/arrays/canJump.go): `array`
@@ -63,6 +65,7 @@
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
+- [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
