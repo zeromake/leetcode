@@ -9,7 +9,7 @@ func TestSortArray(t *testing.T) {
 	nums := [][]int{
 		{1, 2, 8, 5, 9},
 		{9, 2, 8, 5, 1},
-		{1,2,3,3,2,1},
+		{1, 2, 3, 3, 2, 1},
 	}
 	result := [][]int{
 		{1, 2, 5, 8, 9},
@@ -21,4 +21,3 @@ func TestSortArray(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

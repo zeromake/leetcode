@@ -1,5 +1,6 @@
 package matrix
 
+// SpiralOrder 螺旋矩阵 https://leetcode-cn.com/problems/spiral-matrix/
 func SpiralOrder(matrix [][]int) []int {
 	var (
 		result []int
@@ -8,12 +9,12 @@ func SpiralOrder(matrix [][]int) []int {
 		return result
 	}
 	var (
-		left = 0
-		top = 0
-		right = len(matrix[0]) - 1
+		left   = 0
+		top    = 0
+		right  = len(matrix[0]) - 1
 		bottom = len(matrix) - 1
-		count = 0
-		size = len(matrix) * len(matrix[0])
+		count  = 0
+		size   = len(matrix) * len(matrix[0])
 	)
 	for left <= right {
 		// top
@@ -45,7 +46,7 @@ func SpiralOrder(matrix [][]int) []int {
 		}
 		bottom--
 		// left
-		for i := bottom ; i >= top; i -- {
+		for i := bottom; i >= top; i-- {
 			if count == size {
 				break
 			}

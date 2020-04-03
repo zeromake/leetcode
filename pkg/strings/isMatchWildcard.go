@@ -2,12 +2,12 @@ package strings
 
 func IsMatchWildcard(s, p string) bool {
 	var (
-		n = len(s)
-		m = len(p)
-		dp = make([][]bool, n + 1)
+		n  = len(s)
+		m  = len(p)
+		dp = make([][]bool, n+1)
 	)
 	for i, _ := range dp {
-		dp[i] = make([]bool, m + 1)
+		dp[i] = make([]bool, m+1)
 	}
 	dp[0][0] = true
 	for i, c := range p {
@@ -16,11 +16,11 @@ func IsMatchWildcard(s, p string) bool {
 		}
 	}
 	for i := 1; i <= n; i++ {
-		a := s[i - 1]
+		a := s[i-1]
 		for j := 1; j <= m; j++ {
-			b := p[j - 1]
+			b := p[j-1]
 			if a == b || b == '.' {
-				dp[i][j] = dp[i - 1][j - 1]
+				dp[i][j] = dp[i-1][j-1]
 			} else if b == '*' {
 				dp[i][j] = dp[i][j-1] || dp[i-1][j]
 			}

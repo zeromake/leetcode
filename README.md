@@ -61,6 +61,9 @@
 - [x] [0055-canJump](pkg/arrays/canJump.go): `array`
 - [x] [0056-mergeIntervals](pkg/arrays/mergeIntervals.go): `array`, `merge`
 - [x] [0057-insertIntervals](pkg/arrays/insertIntervals.go): `array`, `insert`
+- [x] [0058-lengthOfLastWord](pkg/strings/lengthOfLastWord.go): `string`, `last`
+- [x] [0059-generateSpiralMatrix](pkg/matrix/generateSpiralMatrix.go): `generate`, `spiral`, `matrix`
+- [x] [0060-getPermutation](pkg/arrays/getPermutation.go): `combination`
 - [x] [0066-plusOne](pkg/arrays/plusOne.go): `array`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`

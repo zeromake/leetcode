@@ -6,8 +6,8 @@ func MyPow(x float64, n int) float64 {
 		return 1
 	}
 	if n < 0 {
-		x = 1 / x;
-		n = -n;
+		x = 1 / x
+		n = -n
 	}
 	var ans float64 = 1
 	var currentProduct = x

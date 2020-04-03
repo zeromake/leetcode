@@ -22,7 +22,7 @@ func GameOfLife(board [][]int) {
 		for j := 0; j < m; j++ {
 			x = 0
 			for k := 0; k < 8; k++ {
-				potion1, potion2 := i + dir[k][0], j + dir[k][1]
+				potion1, potion2 := i+dir[k][0], j+dir[k][1]
 				if potion1 >= 0 && potion1 < n && potion2 >= 0 && potion2 < m && board[potion1][potion2] > 0 {
 					x++
 				}
@@ -30,7 +30,7 @@ func GameOfLife(board [][]int) {
 			if board[i][j] == 0 && x == 3 {
 				// 用 -1 代表将要复活的标识
 				board[i][j] = -1
-			} else if board[i][j] == 1 && (x < 2 || x >3) {
+			} else if board[i][j] == 1 && (x < 2 || x > 3) {
 				// 用 2 代表需要消亡的标识
 				board[i][j] = 2
 			}
@@ -46,4 +46,3 @@ func GameOfLife(board [][]int) {
 		}
 	}
 }
-

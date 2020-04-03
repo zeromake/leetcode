@@ -19,4 +19,3 @@ func TestMaxDepthAfterSplit(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

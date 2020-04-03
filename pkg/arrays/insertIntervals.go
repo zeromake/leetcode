@@ -12,10 +12,10 @@ func InsertIntervals(intervals [][]int, newInterval []int) [][]int {
 	sort.Sort(intervalsSort(intervals))
 	for _, v := range intervals {
 		size := len(result)
-		if size == 0 || result[size - 1][1] < v[0] {
+		if size == 0 || result[size-1][1] < v[0] {
 			result = append(result, v)
 		} else {
-			result[size -1][1] = utils.MaxInt(result[size -1][1], v[1])
+			result[size-1][1] = utils.MaxInt(result[size-1][1], v[1])
 		}
 	}
 	return result

@@ -7,12 +7,12 @@ import (
 
 func TestGroupAnagrams(t *testing.T) {
 	strs := [][]string{
-		{"eat","tea","tan","ate","nat","bat"},
+		{"eat", "tea", "tan", "ate", "nat", "bat"},
 	}
 	result := []map[string][]string{
 		{
-			"eat": []string{"eat","tea","ate"},
-			"tan": []string{"tan","nat"},
+			"eat": []string{"eat", "tea", "ate"},
+			"tan": []string{"tan", "nat"},
 			"bat": []string{"bat"},
 		},
 	}
@@ -24,4 +24,3 @@ func TestGroupAnagrams(t *testing.T) {
 		}
 	}
 }
-

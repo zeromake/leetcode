@@ -23,13 +23,13 @@ func hasQueens(x, y, n int, matrix [][]byte) bool {
 			return true
 		}
 	}
-	for i, j := x - 1, y + 1; i >=0 &&  j < n; i, j = i -1 , j + 1 {
+	for i, j := x-1, y+1; i >= 0 && j < n; i, j = i-1, j+1 {
 		if matrix[i][j] == 'Q' {
 			return true
 		}
 	}
 
-	for i, j := x - 1, y - 1; i >= 0 &&  j >= 0; i, j = i -1 , j - 1 {
+	for i, j := x-1, y-1; i >= 0 && j >= 0; i, j = i-1, j-1 {
 		if matrix[i][j] == 'Q' {
 			return true
 		}
@@ -47,21 +47,22 @@ func dfs(result *[][]string, matrix [][]byte, x, n, num int) {
 		return
 	}
 
-	for y := 0 ; y < n; y++ {
+	for y := 0; y < n; y++ {
 		if hasQueens(x, y, n, matrix) {
 			continue
 		}
 		matrix[x][y] = 'Q'
-		dfs(result, matrix, x + 1, n, num + 1)
+		dfs(result, matrix, x+1, n, num+1)
 		matrix[x][y] = '.'
 	}
 }
 
-
 func SolveNQueens2(n int) [][]string {
 	res := make([][]string, 0)
 	brr := make([]byte, n)
-	for i := 0; i < n; i++ {brr[i] = '.'}
+	for i := 0; i < n; i++ {
+		brr[i] = '.'
+	}
 	dfs2(&res, make([]string, 0), brr, 0, 0, 0, (1<<n)-1, n)
 	return res
 }
@@ -75,7 +76,9 @@ func dfs2(res *[][]string, arr []string, brr []byte, shu, pie, na, m, n int) {
 	var idx int
 	for bit != 0 {
 		temp := bit & -bit
-		for 1 << idx != temp {idx++}
+		for 1<<idx != temp {
+			idx++
+		}
 		brr[idx] = 'Q'
 		arr = append(arr, string(brr))
 		brr[idx] = '.'

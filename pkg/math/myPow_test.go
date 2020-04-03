@@ -29,4 +29,3 @@ func TestMyPow(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-
