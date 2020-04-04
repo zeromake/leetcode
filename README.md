@@ -64,6 +64,9 @@
 - [x] [0058-lengthOfLastWord](pkg/strings/lengthOfLastWord.go): `string`, `last`
 - [x] [0059-generateSpiralMatrix](pkg/matrix/generateSpiralMatrix.go): `generate`, `spiral`, `matrix`
 - [x] [0060-getPermutation](pkg/arrays/getPermutation.go): `combination`
+- [x] [0061-rotateRight](pkg/links/rotateRight.go): `link`, `rotate`
+- [x] [0062-uniquePaths](pkg/matrix/uniquePaths.go): `dp`
+- [x] [0063-uniquePathsWithObstacles](pkg/matrix/uniquePathsWithObstacles.go): `dp`
 - [x] [0066-plusOne](pkg/arrays/plusOne.go): `array`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
