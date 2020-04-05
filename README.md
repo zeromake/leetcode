@@ -67,6 +67,8 @@
 - [x] [0061-rotateRight](pkg/links/rotateRight.go): `link`, `rotate`
 - [x] [0062-uniquePaths](pkg/matrix/uniquePaths.go): `dp`
 - [x] [0063-uniquePathsWithObstacles](pkg/matrix/uniquePathsWithObstacles.go): `dp`
+- [x] [0064-minPathSum](pkg/matrix/minPathSum.go): `min`, `path`, `sum`
+- [x] [0065-isNumber](pkg/strings/isNumber.go): `string`, `isNumber`
 - [x] [0066-plusOne](pkg/arrays/plusOne.go): `array`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -76,6 +78,7 @@
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
+- [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
