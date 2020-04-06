@@ -70,6 +70,9 @@
 - [x] [0064-minPathSum](pkg/matrix/minPathSum.go): `min`, `path`, `sum`
 - [x] [0065-isNumber](pkg/strings/isNumber.go): `string`, `isNumber`
 - [x] [0066-plusOne](pkg/arrays/plusOne.go): `array`
+- [x] [0067-addBinary](pkg/strings/addBinary.go): `add`, `string`, `binary`
+- [x] [0068-fullJustify](pkg/strings/fullJustify.go): `full`, `justify`, `string`
+- [x] [0072-minDistance](pkg/strings/minDistance.go): `string`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
