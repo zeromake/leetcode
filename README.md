@@ -80,6 +80,7 @@
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
+- [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
