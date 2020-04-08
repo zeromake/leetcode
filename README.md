@@ -74,7 +74,9 @@
 - [x] [0068-fullJustify](pkg/strings/fullJustify.go): `full`, `justify`, `string`
 - [x] [0069-mySqrt](pkg/math/mySqrt.go): `math`, `sqrt`
 - [x] [0070-climbStairs](pkg/math/climbStairs.go): `math`, `fib`
+- [x] [0071-simplifyPath](pkg/strings/simplifyPath.go): `string`, `clear`, `path`
 - [x] [0072-minDistance](pkg/strings/minDistance.go): `string`
+- [x] [0073-setZeroes](pkg/matrix/setZeroes.go): `matrix`, `zero`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
@@ -103,6 +105,7 @@
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-01.07-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
+- [x] [面试题-13-movingCount](pkg/matrix/movingCount.go): `dp`
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`
