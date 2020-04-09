@@ -3,7 +3,7 @@ package matrix
 // SetZeroes 矩阵置零 https://leetcode-cn.com/problems/set-matrix-zeroes
 func SetZeroes(matrix [][]int) {
 	var (
-		m, n = len(matrix), len(matrix[0])
+		m, n     = len(matrix), len(matrix[0])
 		mdp, ndp = make([]bool, m), make([]bool, n)
 	)
 	for i := 0; i < m; i++ {
@@ -31,4 +31,3 @@ func SetZeroes(matrix [][]int) {
 		}
 	}
 }
-

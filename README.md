@@ -13,19 +13,19 @@
 - [x] [0007-reverse](pkg/math/reverse.go): `number`, `reverse`, `bit`
 - [x] [0008-atoi](pkg/strings/atoi.go): `string`
 - [x] [0009-isPalindrome](pkg/math/isPalindrome.go): `math`, `bit`
-- [x] [0010-isMatch](pkg/strings/isMatch.go): `string`, `match`
+- [x] [0010-isMatch](pkg/strings/isMatch.go): `string`, `match`, `backtracking`
 - [x] [0011-maxArea](pkg/math/maxArea.go): `math`, `ptr`
 - [x] [0012-intToRoman](pkg/math/intToRoman.go): `math`, `bit`
 - [x] [0013-romanToInt](pkg/math/romanToInt.go): `math`, `bit`
 - [x] [0014-longestCommonPrefix](pkg/strings/longestCommonPrefix.go): `string`
 - [x] [0015-threeSum](pkg/arrays/threeSum.go): `array`, `sum`
 - [x] [0016-threeSumClosest](pkg/arrays/threeSumClosest.go): `array`, `sum`
-- [x] [0017-letterCombinations](pkg/strings/letterCombinations.go): `string`
+- [x] [0017-letterCombinations](pkg/strings/letterCombinations.go): `string`, `backtracking`
 - [x] [0018-fourSum](pkg/arrays/fourSum.go): `array`, `sum`
 - [x] [0019-removeNthFromEnd](pkg/links/removeNthFromEnd.go): `link`, `ptr`
 - [x] [0020-isValid](pkg/strings/isValid.go): `string`, `stack`, `match`
 - [x] [0021-mergeTwoLists](pkg/links/mergeTwoLists.go): `link`, `merge`, `sort`
-- [x] [0022-generateParenthesis](pkg/strings/generateParenthesis.go): `string`
+- [x] [0022-generateParenthesis](pkg/strings/generateParenthesis.go): `string`, `backtracking`
 - [x] [0023-mergeKLists](pkg/links/mergeKLists.go): `link`, `merge`, `sort`
 - [x] [0024-swapPairs](pkg/links/swapPairs.go): `swap`, `link`
 - [x] [0025-reverseKGroup](pkg/links/reverseKGroup.go): `link`, `reverse`
@@ -40,22 +40,22 @@
 - [x] [0034-searchRange](pkg/arrays/searchRange.go): `array`, `search`, `range`
 - [x] [0035-searchInsert](pkg/arrays/searchInsert.go): `array`, `search`
 - [x] [0036-isValidSudoku](pkg/matrix/isValidSudoku.go): `matrix`, `sudoku`
-- [x] [0037-solveSudoku](pkg/matrix/solveSudoku.go): `matrix`, `sudoku`
+- [x] [0037-solveSudoku](pkg/matrix/solveSudoku.go): `matrix`, `sudoku`, `backtracking`
 - [x] [0038-countArraySay](pkg/strings/countArraySay.go): `count`, `say`
-- [x] [0039-combinationSum](pkg/arrays/combinationSum.go): `array`, `find set`, `sum`
-- [x] [0040-combinationSum2](pkg/arrays/combinationSum2.go): `array`, `find set`, `sum`
+- [x] [0039-combinationSum](pkg/arrays/combinationSum.go): `array`, `find set`, `sum`, `backtracking`
+- [x] [0040-combinationSum2](pkg/arrays/combinationSum2.go): `array`, `find set`, `sum`, `backtracking`
 - [x] [0041-firstMissingPositive](pkg/arrays/firstMissingPositive.go): `array`, `find`
 - [x] [0042-trap](pkg/arrays/trap.go): `array`, `ptr`
 - [x] [0043-multiply](pkg/math/multiply.go): `string`, `multiply`
-- [x] [0044-isMatchWildcard](pkg/strings/isMatchWildcard.go): `string`, `match`
+- [x] [0044-isMatchWildcard](pkg/strings/isMatchWildcard.go): `string`, `match`, `backtracking`
 - [x] [0045-jump](pkg/arrays/jump.go): `array`, `math`
-- [x] [0046-permute](pkg/arrays/permute.go): `array`, `permute`
-- [x] [0047-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`
+- [x] [0046-permute](pkg/arrays/permute.go): `array`, `permute`, `backtracking`
+- [x] [0047-permuteUnique](pkg/arrays/permuteUnique.go): `array`, `permute`, `unique`, `backtracking`
 - [x] [0048-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
 - [x] [0049-groupAnagrams](pkg/strings/groupAnagrams.go): `array`, `string`
 - [x] [0050-myPow](pkg/math/myPow.go): `math`, `pow`
-- [x] [0051-solveNQueens](pkg/matrix/solveNQueens.go): `matrix`
-- [x] [0052-totalNQueens](pkg/matrix/totalNQueens.go): `matrix`
+- [x] [0051-solveNQueens](pkg/matrix/solveNQueens.go): `matrix`, `backtracking`
+- [x] [0052-totalNQueens](pkg/matrix/totalNQueens.go): `matrix`, `backtracking`
 - [x] [0053-maxSubArray](pkg/arrays/maxSubArray.go): `array`, `max`, `subarray`
 - [x] [0054-spiralOrder](pkg/matrix/spiralOrder.go): `matrix`, `order`
 - [x] [0055-canJump](pkg/arrays/canJump.go): `array`
@@ -63,7 +63,7 @@
 - [x] [0057-insertIntervals](pkg/arrays/insertIntervals.go): `array`, `insert`
 - [x] [0058-lengthOfLastWord](pkg/strings/lengthOfLastWord.go): `string`, `last`
 - [x] [0059-generateSpiralMatrix](pkg/matrix/generateSpiralMatrix.go): `generate`, `spiral`, `matrix`
-- [x] [0060-getPermutation](pkg/arrays/getPermutation.go): `combination`
+- [x] [0060-getPermutation](pkg/arrays/getPermutation.go): `combination`, `backtracking`
 - [x] [0061-rotateRight](pkg/links/rotateRight.go): `link`, `rotate`
 - [x] [0062-uniquePaths](pkg/matrix/uniquePaths.go): `dp`
 - [x] [0063-uniquePathsWithObstacles](pkg/matrix/uniquePathsWithObstacles.go): `dp`
@@ -77,6 +77,9 @@
 - [x] [0071-simplifyPath](pkg/strings/simplifyPath.go): `string`, `clear`, `path`
 - [x] [0072-minDistance](pkg/strings/minDistance.go): `string`
 - [x] [0073-setZeroes](pkg/matrix/setZeroes.go): `matrix`, `zero`
+- [x] [0074-searchMatrix](pkg/matrix/searchMatrix.go): `matrix`, `search`, `sort-array`, `binary-search`
+- [x] [0075-sortColors](pkg/arrays/sortColors.go): `array`, `sort`
+- [x] [0077-combine](pkg/arrays/combine.go): `array`, `combine`, `backtracking`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`

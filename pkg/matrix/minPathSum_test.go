@@ -6,7 +6,7 @@ import (
 )
 
 func TestMinPathSum(t *testing.T) {
-	grid := [][][]int {
+	grid := [][][]int{
 		{
 			{1, 3, 1},
 			{1, 5, 1},
@@ -21,4 +21,3 @@ func TestMinPathSum(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-

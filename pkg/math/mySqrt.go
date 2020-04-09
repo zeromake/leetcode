@@ -10,11 +10,11 @@ func MySqrt(x int) int {
 	var (
 		xx = float64(x)
 		x0 = xx
-		x1 = (x0 + xx / x0) / 2
+		x1 = (x0 + xx/x0) / 2
 	)
-	for int(math.Abs(x0 - x1)) >= 1 {
+	for int(math.Abs(x0-x1)) >= 1 {
 		x0 = x1
-		x1 = (x0 + xx / x0) / 2
+		x1 = (x0 + xx/x0) / 2
 	}
 	return int(x1)
 }
@@ -27,7 +27,7 @@ func MySqrt2(x int) int {
 	left := 0
 	right := x
 	for left <= right {
-		mid := left + (right-left) / 2
+		mid := left + (right-left)/2
 		temp := mid * mid
 		if temp > x {
 			right = mid - 1

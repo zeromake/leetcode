@@ -21,8 +21,8 @@ func fillWords(words []string, bg, ed, maxWidth int, lastLine bool) string {
 			continue
 		}
 		spaceSize := spaceCount + 1
-		if i - bg < t {
-			spaceSize ++
+		if i-bg < t {
+			spaceSize++
 		}
 		for j := 0; j < spaceSize; j++ {
 			sb.WriteByte(' ')
@@ -31,7 +31,7 @@ func fillWords(words []string, bg, ed, maxWidth int, lastLine bool) string {
 	sb.WriteString(words[ed])
 	lens := sb.Len()
 	if lens < maxWidth {
-		for i := 0; i < maxWidth - lens; i++ {
+		for i := 0; i < maxWidth-lens; i++ {
 			sb.WriteByte(' ')
 		}
 	}
@@ -41,13 +41,13 @@ func fillWords(words []string, bg, ed, maxWidth int, lastLine bool) string {
 func FullJustify(words []string, maxWidth int) []string {
 	var (
 		result []string
-		count int
-		bg int
+		count  int
+		bg     int
 	)
 	for i := 0; i < len(words); i++ {
 		count += len(words[i]) + 1
-		if i + 1 == len(words) || count + len(words[i + 1]) > maxWidth {
-			result = append(result, fillWords(words, bg, i, maxWidth, i + 1 == len(words)))
+		if i+1 == len(words) || count+len(words[i+1]) > maxWidth {
+			result = append(result, fillWords(words, bg, i, maxWidth, i+1 == len(words)))
 			bg = i + 1
 			count = 0
 		}

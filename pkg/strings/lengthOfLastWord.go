@@ -4,7 +4,7 @@ package strings
 func LengthOfLastWord(s string) int {
 	count := 0
 	flag := false
-	for i := len(s) - 1; i >=0; i-- {
+	for i := len(s) - 1; i >= 0; i-- {
 		c := s[i]
 		if c == ' ' {
 			if flag {

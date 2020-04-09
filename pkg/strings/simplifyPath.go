@@ -12,7 +12,7 @@ func SimplifyPath(path string) string {
 			continue
 		} else if s == ".." {
 			if lens > 0 {
-				result = result[:lens - 1]
+				result = result[:lens-1]
 				lens--
 			}
 			continue

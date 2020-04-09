@@ -5,7 +5,7 @@ func Rotate(matrix [][]int) {
 	n := len(matrix)
 	for i := 0; i < (n+1)/2; i++ {
 		for j := 0; j < n/2; j++ {
-			x, y := n - 1 - i, n - 1 - j
+			x, y := n-1-i, n-1-j
 			// [
 			//  [ 5, 1, 9,11],
 			//  [ 2, 4, 8,10],

@@ -31,9 +31,9 @@ func UniquePathsWithObstacles(grid [][]int) int {
 			if grid[i][j] == 1 {
 				cache[i][j] = 0
 			} else {
-				cache[i][j] = cache[i - 1][j] + cache[i][j - 1]
+				cache[i][j] = cache[i-1][j] + cache[i][j-1]
 			}
 		}
 	}
-	return cache[m - 1][n - 1]
+	return cache[m-1][n-1]
 }

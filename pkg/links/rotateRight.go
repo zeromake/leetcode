@@ -20,7 +20,7 @@ func RotateRight(head *ListNode, k int) *ListNode {
 		cur = head
 		i := 0
 		for cur.Next != nil {
-			if i == lens - k - 1 {
+			if i == lens-k-1 {
 				break
 			}
 			cur = cur.Next

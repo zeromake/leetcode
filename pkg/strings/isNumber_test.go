@@ -64,8 +64,8 @@ func TestIsNumber(t *testing.T) {
 	}
 	for i, r := range s {
 		rr := IsNumber(r)
-		assert.Equal(t, rr , result[i], r)
+		assert.Equal(t, rr, result[i], r)
 		rr = IsNumber2(r)
-		assert.Equal(t, rr , result[i], r)
+		assert.Equal(t, rr, result[i], r)
 	}
 }
