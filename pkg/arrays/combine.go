@@ -20,21 +20,25 @@ func combineDfs(result *[][]int, list []int, start, n, k int) {
 }
 
 func Combine2(n int, k int) [][]int {
-	l := make([]int, k)
+	list := make([]int, k)
 	i := 0
-	var ret [][]int
+	var result [][]int
 	for i >= 0 {
-		l[i]++
-		if l[i] > n-k+i+1 {
+		// 切换下一个组合
+		list[i]++
+		// 判断是否已经使用完，使用完回溯到上一个
+		if list[i] > n-k+i+1 {
 			i--
 		} else if i == k-1 {
+			// 长度足够插入结果
 			t := make([]int, k)
-			copy(t, l)
-			ret = append(ret, t)
+			copy(t, list)
+			result = append(result, t)
 		} else {
+			// 切到一下一个下标
 			i++
-			l[i] = l[i-1]
+			list[i] = list[i-1]
 		}
 	}
-	return ret
+	return result
 }
