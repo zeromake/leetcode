@@ -80,7 +80,10 @@
 - [x] [0074-searchMatrix](pkg/matrix/searchMatrix.go): `matrix`, `search`, `sort-array`, `binary-search`
 - [x] [0075-sortColors](pkg/arrays/sortColors.go): `array`, `sort`
 - [x] [0077-combine](pkg/arrays/combine.go): `array`, `combine`, `backtracking`
+- [x] [0078-subsets](pkg/arrays/subsets.go): `array`, `combine`, `backtracking`
+- [x] [0079-exits](pkg/matrix/exist.go): `matrix`, `backtracking`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
+- [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
