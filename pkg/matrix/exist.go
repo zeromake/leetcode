@@ -31,18 +31,17 @@ func existDfs(board [][]byte, word string, m, n, x, y, count int) bool {
 	board[x][y] = ' '
 	flag := false
 	for _, dir := range dirs {
-		i, j := x + dir[0], y + dir[1]
-		flag = flag || existDfs(board, word, m, n, i, j, count + 1)
+		i, j := x+dir[0], y+dir[1]
+		flag = flag || existDfs(board, word, m, n, i, j, count+1)
 	}
 	board[x][y] = curr
 	return flag
 }
 
-
 func Exist2(nums [][]byte, word string) bool {
-	for i:=0; i < len(nums); i++ {
-		for j:=0; j< len(nums[0]); j++ {
-			if helper(nums, i, j , word , 0) {
+	for i := 0; i < len(nums); i++ {
+		for j := 0; j < len(nums[0]); j++ {
+			if helper(nums, i, j, word, 0) {
 				return true
 			}
 		}
@@ -50,13 +49,13 @@ func Exist2(nums [][]byte, word string) bool {
 	return false
 }
 
-func helper(nums [][]byte, i, j int,  word string, index int)bool{
+func helper(nums [][]byte, i, j int, word string, index int) bool {
 	// 1.递归退出条件，index== 单词长度  true
 	if len(word) == index {
 		return true
 	}
 	// 2.递归退出条件， 越界
-	if i<0 || i==len(nums) || j<0 || j==len(nums[0]) {
+	if i < 0 || i == len(nums) || j < 0 || j == len(nums[0]) {
 		return false
 	}
 	// 3.递归退出条件, word当前值与nums中不匹配

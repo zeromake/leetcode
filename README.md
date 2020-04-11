@@ -82,6 +82,8 @@
 - [x] [0077-combine](pkg/arrays/combine.go): `array`, `combine`, `backtracking`
 - [x] [0078-subsets](pkg/arrays/subsets.go): `array`, `combine`, `backtracking`
 - [x] [0079-exits](pkg/matrix/exist.go): `matrix`, `backtracking`
+- [x] [0080-removeDuplicatesCount](pkg/arrays/removeDuplicatesCount.go): `array`, `remove duplicates`
+- [x] [0081-rotatedSearchDuplicate](pkg/arrays/rotatedSearchDuplicate.go): `array`, `search`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -98,6 +100,7 @@
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0876-middleMode](pkg/links/middleNode.go): `middle`, `link`, `ptr`
+- [x] [0887-superEggDrop](pkg/math/superEggDrop.go): `math`, `dp`
 - [x] [0892-surfaceArea](pkg/matrix/surfaceArea.go): `matrix`, `area`
 - [x] [0912-sortArray](pkg/arrays/sortArray.go): `array`, `quick`, `sort`
 - [x] [0914-hasGroupsSizeX](pkg/arrays/hasGroupsSizeX.go): `array`, `group`, `gcd`

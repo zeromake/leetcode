@@ -7,7 +7,7 @@ import (
 
 func TestCombine(t *testing.T) {
 	n := [][2]int{
-		{4,2},
+		{4, 2},
 	}
 	result := [][][]int{
 		{
@@ -21,9 +21,8 @@ func TestCombine(t *testing.T) {
 	}
 	for i, r := range n {
 		rr := Combine(r[0], r[1])
-		assert.Equal(t, rr , result[i])
+		assert.Equal(t, rr, result[i])
 		rr = Combine2(r[0], r[1])
-		assert.Equal(t, rr , result[i])
+		assert.Equal(t, rr, result[i])
 	}
 }
-

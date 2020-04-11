@@ -13,11 +13,11 @@ func TestSubsets(t *testing.T) {
 		{
 			{},
 			{1},
-			{1,2},
-			{1,2,3},
-			{1,3},
+			{1, 2},
+			{1, 2, 3},
+			{1, 3},
 			{2},
-			{2,3},
+			{2, 3},
 			{3},
 		},
 	}
@@ -26,4 +26,3 @@ func TestSubsets(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
-
