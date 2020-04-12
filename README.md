@@ -84,6 +84,8 @@
 - [x] [0079-exits](pkg/matrix/exist.go): `matrix`, `backtracking`
 - [x] [0080-removeDuplicatesCount](pkg/arrays/removeDuplicatesCount.go): `array`, `remove duplicates`
 - [x] [0081-rotatedSearchDuplicate](pkg/arrays/rotatedSearchDuplicate.go): `array`, `search`
+- [x] [0082-deleteDuplicatesII](pkg/links/deleteDuplicatesII.go): `link`
+- [x] [0083-deleteDuplicatesI](pkg/links/deleteDuplicatesI.go): `link`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -116,6 +118,7 @@
 - [x] [面试题-01.07-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-13-movingCount](pkg/matrix/movingCount.go): `dp`
+- [x] [面试题-16.03-intersection](pkg/math/intersection.go): `math`
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`

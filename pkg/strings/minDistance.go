@@ -2,6 +2,7 @@ package strings
 
 import "github.com/zeromake/leetcode/pkg/utils"
 
+// MinDistance 编辑距离 https://leetcode-cn.com/problems/edit-distance/
 func MinDistance(word1 string, word2 string) int {
 	var (
 		m, n = len(word1), len(word2)
