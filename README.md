@@ -86,6 +86,8 @@
 - [x] [0081-rotatedSearchDuplicate](pkg/arrays/rotatedSearchDuplicate.go): `array`, `search`
 - [x] [0082-deleteDuplicatesII](pkg/links/deleteDuplicatesII.go): `link`
 - [x] [0083-deleteDuplicatesI](pkg/links/deleteDuplicatesI.go): `link`
+- [x] [0086-partitionLink](pkg/links/partitionLink.go): `link`, `partition`
+- [x] [0088-mergeSort](pkg/arrays/mergeSort.go): `array`, `merge`, `sort`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -94,6 +96,7 @@
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
+- [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
