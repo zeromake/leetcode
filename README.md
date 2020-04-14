@@ -88,6 +88,8 @@
 - [x] [0083-deleteDuplicatesI](pkg/links/deleteDuplicatesI.go): `link`
 - [x] [0086-partitionLink](pkg/links/partitionLink.go): `link`, `partition`
 - [x] [0088-mergeSort](pkg/arrays/mergeSort.go): `array`, `merge`, `sort`
+- [x] [0089-grayCode](pkg/math/grayCode.go): `bit`
+- [x] [0090-subsetsWithDup](pkg/arrays/subsetsWithDup.go): `array`, `combine`, `backtracking`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -99,6 +101,7 @@
 - [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
+- [x] [0445-addTowNumberII](pkg/links/addTwoNumbersII.go): `link`, `add`
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`

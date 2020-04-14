@@ -54,7 +54,7 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		y   int
 		sum int
 	)
-	for l1 != nil || l2 != nil {
+	for l1 != nil || l2 != nil || mod != 0 {
 		if l1 != nil {
 			x = l1.Val
 			l1 = l1.Next
@@ -74,11 +74,6 @@ func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 			Val: sum,
 		}
 		cur = cur.Next
-	}
-	if mod > 0 {
-		cur.Next = &ListNode{
-			Val: mod,
-		}
 	}
 	return pre.Next
 }

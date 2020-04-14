@@ -1,6 +1,6 @@
 package arrays
 
-// Combine 组合 https://leetcode-cn.com/problems/combinations
+// Subsets 子集 https://leetcode-cn.com/problems/subsets
 func Subsets(nums []int) [][]int {
 	result := make([][]int, 0)
 	subsetsDfs(&result, nil, 0, nums, len(nums))

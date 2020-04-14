@@ -26,3 +26,27 @@ func TestSubsets(t *testing.T) {
 		assert.Equal(t, rr, result[i])
 	}
 }
+
+func TestSubsetsWithDup(t *testing.T) {
+	nums := [][]int{
+		{4, 4, 4, 1, 4},
+	}
+	result := [][][]int{
+		{
+			{},
+			{1},
+			{1, 4},
+			{1, 4, 4},
+			{1, 4, 4, 4},
+			{1, 4, 4, 4, 4},
+			{4},
+			{4, 4},
+			{4, 4, 4},
+			{4, 4, 4, 4},
+		},
+	}
+	for i, r := range nums {
+		rr := SubsetsWithDup(r)
+		assert.Equal(t, rr, result[i])
+	}
+}
