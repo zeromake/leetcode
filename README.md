@@ -92,6 +92,9 @@
 - [x] [0090-subsetsWithDup](pkg/arrays/subsetsWithDup.go): `array`, `combine`, `backtracking`
 - [x] [0091-numDecodings](pkg/strings/numDecodings.go): `string`, `decode`
 - [x] [0092-reverseBetween](pkg/links/reverseBetween.go): `link`, `reverse`
+- [x] [0093-restoreIpAddresses](pkg/strings/restoreIpAddresses.go): `string`, `ip`, `backtracking`
+- [x] [0094-inorderTraversal](pkg/trees/inorderTraversal.go): `tree`, `stack`
+- [x] [0095-generateTree](pkg/trees/generateTrees.go): `tree`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
