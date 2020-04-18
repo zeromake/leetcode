@@ -79,6 +79,7 @@
 - [x] [0073-setZeroes](pkg/matrix/setZeroes.go): `matrix`, `zero`
 - [x] [0074-searchMatrix](pkg/matrix/searchMatrix.go): `matrix`, `search`, `sort-array`, `binary-search`
 - [x] [0075-sortColors](pkg/arrays/sortColors.go): `array`, `sort`
+- [x] [0076-minWindow](pkg/strings/minWindow.go): `string`, `sliding window`
 - [x] [0077-combine](pkg/arrays/combine.go): `array`, `combine`, `backtracking`
 - [x] [0078-subsets](pkg/arrays/subsets.go): `array`, `combine`, `backtracking`
 - [x] [0079-exits](pkg/matrix/exist.go): `matrix`, `backtracking`
@@ -86,6 +87,8 @@
 - [x] [0081-rotatedSearchDuplicate](pkg/arrays/rotatedSearchDuplicate.go): `array`, `search`
 - [x] [0082-deleteDuplicatesII](pkg/links/deleteDuplicatesII.go): `link`
 - [x] [0083-deleteDuplicatesI](pkg/links/deleteDuplicatesI.go): `link`
+- [x] [0084-largestRectangleArea](pkg/arrays/largestRectangleArea.go): `array`, `stack`
+- [x] [0085-maximalRectangle](pkg/matrix/maximalRectangle.go): `matrix`, `dp`
 - [x] [0086-partitionLink](pkg/links/partitionLink.go): `link`, `partition`
 - [x] [0088-mergeSort](pkg/arrays/mergeSort.go): `array`, `merge`, `sort`
 - [x] [0089-grayCode](pkg/math/grayCode.go): `bit`
