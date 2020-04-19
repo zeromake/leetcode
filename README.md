@@ -90,6 +90,7 @@
 - [x] [0084-largestRectangleArea](pkg/arrays/largestRectangleArea.go): `array`, `stack`
 - [x] [0085-maximalRectangle](pkg/matrix/maximalRectangle.go): `matrix`, `dp`
 - [x] [0086-partitionLink](pkg/links/partitionLink.go): `link`, `partition`
+- [x] [0087-isScramble](pkg/strings/isScramble.go): `string`, `dp`
 - [x] [0088-mergeSort](pkg/arrays/mergeSort.go): `array`, `merge`, `sort`
 - [x] [0089-grayCode](pkg/math/grayCode.go): `bit`
 - [x] [0090-subsetsWithDup](pkg/arrays/subsetsWithDup.go): `array`, `combine`, `backtracking`
@@ -99,6 +100,7 @@
 - [x] [0094-inorderTraversal](pkg/trees/inorderTraversal.go): `tree`, `stack`
 - [x] [0095-generateTree](pkg/trees/generateTrees.go): `tree`
 - [x] [0096-numTrees](pkg/trees/numTrees.go): `tree`, `math`
+- [x] [0097-isInterleave](pkg/strings/isInterleave.go): `string`, `dp`
 - [x] [0098-isValidBST](pkg/trees/isValidBST.go): `tree`, `search tree`
 - [x] [0100-isSameTree](pkg/trees/isSameTree.go): `tree`, `same`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
@@ -113,6 +115,7 @@
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
 - [x] [0445-addTowNumberII](pkg/links/addTwoNumbersII.go): `link`, `add`
+- [x] [0466-getMaxRepetitions](pkg/strings/getMaxRepetitions.go): `string`
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
 - [x] [0542-updateMatrix](pkg/matrix/updateMatrix.go): `matrix`, `dp`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
