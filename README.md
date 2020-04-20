@@ -102,10 +102,13 @@
 - [x] [0096-numTrees](pkg/trees/numTrees.go): `tree`, `math`
 - [x] [0097-isInterleave](pkg/strings/isInterleave.go): `string`, `dp`
 - [x] [0098-isValidBST](pkg/trees/isValidBST.go): `tree`, `search tree`
+- [x] [0099-recoverTree](pkg/trees/recoverTree.go): `tree`, `search tree`
 - [x] [0100-isSameTree](pkg/trees/isSameTree.go): `tree`, `same`
+- [x] [0101-isSymmetric](pkg/trees/isSymmetric.go): `tree`, `symmetric`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
+- [x] [0200-numIslands](pkg/matrix/numIslands.go): `matrix`, `land`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
