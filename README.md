@@ -138,6 +138,7 @@
 - [x] [1111-maxDepthAfterSplit](pkg/strings/maxDepthAfterSplit.go): `string`
 - [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
 - [x] [1162-maxDistance](pkg/matrix/maxDistance.go): `matrix`, `bfs`
+- [x] [1248-numberOfSubarrays](pkg/arrays/numberOfSubarrays.go): `array`
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-01.07-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
