@@ -108,6 +108,7 @@
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
+- [x] [0199-rightSideView](pkg/trees/rightSideView.go): `tree`, `bfs`
 - [x] [0200-numIslands](pkg/matrix/numIslands.go): `matrix`, `land`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
