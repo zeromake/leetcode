@@ -10,9 +10,11 @@ func TestReverseBetween(t *testing.T) {
 		NumToList(54321),
 		NumToList(53),
 		NumToList(5),
+		nil,
 	}
 	n := [][2]int{
 		{2, 4},
+		{1, 1},
 		{1, 1},
 		{1, 1},
 	}
@@ -20,6 +22,7 @@ func TestReverseBetween(t *testing.T) {
 		NumToList(52341),
 		NumToList(53),
 		NumToList(5),
+		nil,
 	}
 	for i, r := range links {
 		m := n[i]
