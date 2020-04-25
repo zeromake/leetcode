@@ -106,6 +106,7 @@
 - [x] [0100-isSameTree](pkg/trees/isSameTree.go): `tree`, `same`
 - [x] [0101-isSymmetric](pkg/trees/isSymmetric.go): `tree`, `symmetric`
 - [x] [0102-levelOrder](pkg/trees/levelOrder.go): `tree`, `bfs`
+- [x] [0103-zigzagLevelOrder](pkg/trees/zigzagLevelOrder.go): `tree`, `bfs`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
