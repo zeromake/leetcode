@@ -19,12 +19,7 @@ func buildPreTreeHelper(preOrder []int, start, end int, intOrder []int, inStart,
 	root := &TreeNode{
 		Val: preOrder[start],
 	}
-	inRoot := 0
-	if v, ok := inMap[root.Val]; !ok {
-		return nil
-	} else {
-		inRoot = v
-	}
+	inRoot := inMap[root.Val]
 	numLeft := inRoot - inStart
 	root.Left = buildPreTreeHelper(preOrder, start+1, end+numLeft, intOrder, inStart, inRoot-1, inMap)
 	root.Right = buildPreTreeHelper(preOrder, start+numLeft+1, end, intOrder, inRoot+1, inEnd, inMap)

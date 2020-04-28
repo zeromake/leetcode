@@ -20,14 +20,9 @@ func buildPostTreeHelper(postOrder []int, end int, inStart, inEnd int, inMap map
 	root := &TreeNode{
 		Val: postOrder[end],
 	}
-	inRoot := 0
-	if v, ok := inMap[root.Val]; !ok {
-		return nil
-	} else {
-		inRoot = v
-	}
+	inRoot := inMap[root.Val]
 	// 取得偏移
-	numLeft := inRoot - inStart
+	numLeft := inEnd - inRoot
 	root.Right = buildPostTreeHelper(postOrder, end-1, inRoot+1, inEnd, inMap)
 	root.Left = buildPostTreeHelper(postOrder, end-numLeft-1, inStart, inRoot-1, inMap)
 	return root
