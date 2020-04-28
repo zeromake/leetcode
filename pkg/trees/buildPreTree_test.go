@@ -35,7 +35,7 @@ func TestBuildTree(t *testing.T) {
 		nil,
 	}
 	for i, r := range lists {
-		rr := BuildTree(r[0], r[1])
+		rr := BuildPreTree(r[0], r[1])
 		assert.Equal(t, rr.String(), result[i].String())
 	}
 }

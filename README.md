@@ -108,7 +108,9 @@
 - [x] [0102-levelOrder](pkg/trees/levelOrder.go): `tree`, `bfs`
 - [x] [0103-zigzagLevelOrder](pkg/trees/zigzagLevelOrder.go): `tree`, `bfs`
 - [x] [0104-maxDepth](pkg/trees/maxDepth.go): `tree`, `bfs`
-- [x] [0105-buildTree](pkg/trees/buildTree.go): `tree`
+- [x] [0105-buildPreTree](pkg/trees/buildPreTree.go): `tree`
+- [x] [0106-buildPostTree](pkg/trees/buildPostTree.go): `tree`
+- [x] [0107-levelOrderBottom](pkg/trees/levelOrderBottom.go): `tree`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
