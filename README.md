@@ -141,6 +141,7 @@
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [0999-numRookCaptures](pkg/matrix/numRookCaptures.go): `matrix`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
+- [x] [1095-findInMountainArray](pkg/arrays/findInMountainArray.go): `array`, `binary-search`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
 - [x] [1111-maxDepthAfterSplit](pkg/strings/maxDepthAfterSplit.go): `string`
 - [x] [1160-countCharacters](pkg/strings/countCharacters.go): `string`
