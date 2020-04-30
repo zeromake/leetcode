@@ -116,6 +116,7 @@
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0199-rightSideView](pkg/trees/rightSideView.go): `tree`, `bfs`
 - [x] [0200-numIslands](pkg/matrix/numIslands.go): `matrix`, `land`
+- [x] [0202-isHappy](pkg/math/isHappy.go): `number`, `math`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
