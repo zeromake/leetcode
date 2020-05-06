@@ -5,11 +5,10 @@ import "container/list"
 // MinDepth 最小深度 https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
 func MinDepth(root *TreeNode) int {
 	var result int
-	if root == nil {
-		return result
-	}
 	queue := list.New()
-	queue.PushBack(root)
+	if root != nil {
+		queue.PushBack(root)
+	}
 	for queue.Len() > 0 {
 		result++
 		for i := queue.Len(); i > 0; i-- {
