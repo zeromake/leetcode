@@ -134,6 +134,7 @@
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
 - [x] [0542-updateMatrix](pkg/matrix/updateMatrix.go): `matrix`, `dp`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
+- [x] [0572-isSubtree](pkg/trees/isSubtree.go): `tree`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
