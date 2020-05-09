@@ -115,6 +115,7 @@
 - [x] [0109-sortedListToBST](pkg/trees/sortedListToBST.go): `tree`, `link`
 - [x] [0110-isBalanced](pkg/trees/isBalanced.go): `tree`
 - [x] [0111-minDepth](pkg/trees/minDepth.go): `tree`, `depth`
+- [x] [0112-hasPathSum](pkg/trees/hasPathSum.go): `tree`, `bfs`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
