@@ -62,10 +62,15 @@ func TestIsSubtree(t *testing.T) {
 				},
 			},
 		},
+		{
+			nil,
+			nil,
+		},
 	}
 	result := []bool{
 		true,
 		false,
+		true,
 	}
 	for i, r := range trees {
 		rr := IsSubtree(r[0], r[1])

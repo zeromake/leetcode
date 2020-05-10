@@ -116,6 +116,7 @@
 - [x] [0110-isBalanced](pkg/trees/isBalanced.go): `tree`
 - [x] [0111-minDepth](pkg/trees/minDepth.go): `tree`, `depth`
 - [x] [0112-hasPathSum](pkg/trees/hasPathSum.go): `tree`, `bfs`
+- [x] [0113-pathSum](pkg/trees/pathSum.go): `tree`, `dfs`, `backtracking`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
@@ -124,6 +125,7 @@
 - [x] [0202-isHappy](pkg/math/isHappy.go): `number`, `math`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
+- [x] [0236-lowestCommonAncestor](pkg/trees/lowestCommonAncestor.go): `tree`, `bfs`, `dfs`
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
