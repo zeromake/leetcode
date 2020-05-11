@@ -118,7 +118,7 @@
 - [x] [0112-hasPathSum](pkg/trees/hasPathSum.go): `tree`, `bfs`
 - [x] [0113-pathSum](pkg/trees/pathSum.go): `tree`, `dfs`, `backtracking`
 - [x] [0114-flatten](pkg/trees/flatten.go): `tree`, `dfs`
-- [x] [0115-connect](pkg/trees/connect.go): `tree`, `bfs`
+- [x] [0116-connect](pkg/trees/connect.go): `tree`, `bfs`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
