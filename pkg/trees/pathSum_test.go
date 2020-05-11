@@ -37,15 +37,18 @@ func TestPathSum(t *testing.T) {
 				},
 			},
 		},
+		nil,
 	}
 	sum := []int{
 		22,
+		1,
 	}
 	result := [][][]int{
 		{
 			{5, 4, 11, 2},
 			{5, 8, 4, 5},
 		},
+		nil,
 	}
 	for i, r := range trees {
 		rr := PathSum(r, sum[i])
