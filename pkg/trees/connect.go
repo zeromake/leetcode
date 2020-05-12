@@ -40,7 +40,7 @@ func (n *Node) String() string {
 	return sb.String()
 }
 
-// Connect 填充每个节点的下一个右侧节点指针 https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
+// Connect 填充每个节点的下一个右侧节点指针 https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/ , https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii
 func Connect(root *Node) *Node {
 	queue := list.New()
 	if root != nil {
@@ -61,6 +61,38 @@ func Connect(root *Node) *Node {
 			if node.Right != nil {
 				queue.PushBack(node.Right)
 			}
+		}
+	}
+	return root
+}
+
+func Connect2(root *Node) *Node {
+	if root == nil {
+		return nil
+	}
+	var (
+		most = root
+		prev *Node
+		curr = root
+	)
+	processChild := func(childNode *Node) {
+		if childNode != nil {
+			if prev != nil {
+				prev.Next = childNode
+			} else {
+				most = childNode
+			}
+			prev = childNode
+		}
+	}
+	for most != nil {
+		prev = nil
+		curr = most
+		most = nil
+		for curr != nil {
+			processChild(curr.Left)
+			processChild(curr.Right)
+			curr = curr.Next
 		}
 	}
 	return root

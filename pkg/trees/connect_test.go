@@ -58,3 +58,56 @@ func TestConnect(t *testing.T) {
 		assert.Equal(t, rr.String(), result[i])
 	}
 }
+func TestConnect2(t *testing.T) {
+	trees := []*Node{
+		{
+			Val: 1,
+			Left: &Node{
+				Val: 2,
+				Left: &Node{
+					Val: 4,
+				},
+				Right: &Node{
+					Val: 5,
+				},
+			},
+			Right: &Node{
+				Val: 3,
+				Left: &Node{
+					Val: 6,
+				},
+				Right: &Node{
+					Val: 7,
+				},
+			},
+		},
+		{
+			Val: 1,
+			Left: &Node{
+				Val: 2,
+				Right: &Node{
+					Val: 5,
+				},
+			},
+			Right: &Node{
+				Val: 3,
+				Left: &Node{
+					Val: 6,
+				},
+				Right: &Node{
+					Val: 7,
+				},
+			},
+		},
+		nil,
+	}
+	result := []string{
+		"[1,#,2,3,#,4,5,6,7,#]",
+		"[1,#,2,3,#,5,6,7,#]",
+		"[]",
+	}
+	for i, r := range trees {
+		rr := Connect2(r)
+		assert.Equal(t, rr.String(), result[i])
+	}
+}
