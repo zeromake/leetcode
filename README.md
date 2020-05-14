@@ -123,6 +123,8 @@
 - [x] [0118-generateTriangle](pkg/arrays/generateTriangle.go): `array`
 - [x] [0119-getRowTriangle](pkg/arrays/getRowTriangle.go): `array`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
+- [x] [0124-maxPathSum](pkg/trees/maxPathSum.go): `tree`, `dfs`
+- [x] [0136-singleNumber](pkg/math/singleNumber.go): `math`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0199-rightSideView](pkg/trees/rightSideView.go): `tree`, `bfs`
