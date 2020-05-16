@@ -13,6 +13,7 @@ func TestSuperEggDrop(t *testing.T) {
 	}
 	for _, r := range n {
 		rr := SuperEggDrop(r[0], r[1])
+		//rr := SuperEggDrop2(r[0], r[1])
 		assert.Equal(t, rr, r[2])
 	}
 }

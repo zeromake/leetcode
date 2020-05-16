@@ -123,6 +123,7 @@
 - [x] [0118-generateTriangle](pkg/arrays/generateTriangle.go): `array`
 - [x] [0119-getRowTriangle](pkg/arrays/getRowTriangle.go): `array`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
+- [x] [0122-maxProfitII](pkg/arrays/maxProfitII.go): `array`
 - [x] [0124-maxPathSum](pkg/trees/maxPathSum.go): `tree`, `dfs`
 - [x] [0136-singleNumber](pkg/math/singleNumber.go): `math`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
@@ -144,6 +145,7 @@
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
 - [x] [0542-updateMatrix](pkg/matrix/updateMatrix.go): `matrix`, `dp`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
+- [x] [0560-subArraySum](pkg/arrays/subArraySum.go): `array`
 - [x] [0572-isSubtree](pkg/trees/isSubtree.go): `tree`, `dfs`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
