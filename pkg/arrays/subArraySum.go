@@ -8,7 +8,7 @@ func SubArraySum(nums []int, k int) int {
 	mp[0] = 1
 	for i := 0; i < len(nums); i++ {
 		pre += nums[i]
-		if v, ok := mp[pre - k]; ok {
+		if v, ok := mp[pre-k]; ok {
 			count += v
 		}
 		mp[pre]++
