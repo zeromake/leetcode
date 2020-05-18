@@ -127,6 +127,7 @@
 - [x] [0124-maxPathSum](pkg/trees/maxPathSum.go): `tree`, `dfs`
 - [x] [0136-singleNumber](pkg/math/singleNumber.go): `math`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
+- [x] [0152-maxProduct](pkg/arrays/maxProduct.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0199-rightSideView](pkg/trees/rightSideView.go): `tree`, `bfs`
 - [x] [0200-numIslands](pkg/matrix/numIslands.go): `matrix`, `land`
