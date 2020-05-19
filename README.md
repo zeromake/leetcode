@@ -149,6 +149,7 @@
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0560-subArraySum](pkg/arrays/subArraySum.go): `array`
 - [x] [0572-isSubtree](pkg/trees/isSubtree.go): `tree`, `dfs`
+- [x] [0680-validPalindrome](pkg/strings/validPalindrome.go): `string`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
