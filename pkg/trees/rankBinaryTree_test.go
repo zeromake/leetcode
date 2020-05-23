@@ -28,9 +28,9 @@ func TestBinaryTree_Rank(t *testing.T) {
 		},
 	}
 	tree1 := &BinaryTree{
-	value: 2,
+		value: 2,
 		left:  &BinaryTree{value: 1},
-			right: &BinaryTree{
+		right: &BinaryTree{
 			value: 33,
 			left: &BinaryTree{
 				value: 25,

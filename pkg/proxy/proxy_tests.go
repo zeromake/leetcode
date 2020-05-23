@@ -9,8 +9,6 @@ import (
 	"testing"
 )
 
-
-
 type Server struct {
 	l net.Listener
 }
@@ -66,4 +64,3 @@ func TestProxy(t *testing.T) {
 	}
 	t.Log(string(bs))
 }
-
