@@ -118,6 +118,7 @@
 - [x] [0112-hasPathSum](pkg/trees/hasPathSum.go): `tree`, `bfs`
 - [x] [0113-pathSum](pkg/trees/pathSum.go): `tree`, `dfs`, `backtracking`
 - [x] [0114-flatten](pkg/trees/flatten.go): `tree`, `dfs`
+- [x] [0115-numDistinct](pkg/strings/numDistinct.go): `string`, `dp`
 - [x] [0116-connect](pkg/trees/connect.go): `tree`, `bfs`
 - [x] [0117-connect-II](pkg/trees/connect.go): `tree`, `bfs`
 - [x] [0118-generateTriangle](pkg/arrays/generateTriangle.go): `array`
