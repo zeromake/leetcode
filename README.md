@@ -139,6 +139,7 @@
 - [x] [0210-findOrder](pkg/arrays/findOrder.go): `array`, `topological-sort`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
 - [x] [0236-lowestCommonAncestor](pkg/trees/lowestCommonAncestor.go): `tree`, `bfs`, `dfs`
+- [x] [0287-findDuplicate](pkg/arrays/findDuplicate.go): `array`, `duplicate`
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
