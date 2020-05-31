@@ -10,10 +10,12 @@ func TestFindTheLongestSubstring(t *testing.T) {
 		"eleetminicoworoep",
 		"leetcodeisgreat",
 		"bcbcbc",
+		"bcbcbcu",
 	}
 	result := []int{
 		13,
 		5,
+		6,
 		6,
 	}
 	for i, r := range strs {
