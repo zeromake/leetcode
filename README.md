@@ -190,3 +190,4 @@
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`
 - [x] [面试题-59-II-maxQueue](pkg/stacks/maxQueue.go): `link`, `stack`
 - [x] [面试题-62-lastRemaining](pkg/math/lastRemaining.go): `math`
+- [x] [面试题-64-sumNums](pkg/math/sumNums.go): `math`
