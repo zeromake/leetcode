@@ -159,6 +159,7 @@
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
+- [x] [0837-new21Game](pkg/math/new21Game.go): `dp`
 - [x] [0876-middleMode](pkg/links/middleNode.go): `middle`, `link`, `ptr`
 - [x] [0887-superEggDrop](pkg/math/superEggDrop.go): `math`, `dp`
 - [x] [0892-surfaceArea](pkg/matrix/surfaceArea.go): `matrix`, `area`
