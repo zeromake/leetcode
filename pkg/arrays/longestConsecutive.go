@@ -43,7 +43,7 @@ func LongestConsecutive2(nums []int) int {
 			count := 1
 			_, ok = set[current]
 			for ok {
-				count, current = count + 1, current + 1
+				count, current = count+1, current+1
 				_, ok = set[current]
 			}
 			if count > max {

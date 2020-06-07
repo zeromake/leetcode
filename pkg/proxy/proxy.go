@@ -125,3 +125,12 @@ func Proxy(origin net.Conn, target net.Conn) error {
 		}
 	}
 }
+
+func handel(w http.ResponseWriter, req *http.Request) {
+	go func() {
+		select {
+		case <-req.Context().Done():
+
+		}
+	}()
+}

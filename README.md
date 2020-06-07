@@ -128,6 +128,7 @@
 - [x] [0122-maxProfitIII](pkg/arrays/maxProfitIII.go): `array`
 - [x] [0124-maxPathSum](pkg/trees/maxPathSum.go): `tree`, `dfs`
 - [x] [0125-isPalindrome](pkg/strings/isPalindrome.go): `string`
+- [x] [0126-findLadders](pkg/strings/findLadders.go): `string`, `backtracking`
 - [x] [0128-longestConsecutive](pkg/arrays/longestConsecutive.go): `array`, `set`
 - [x] [0136-singleNumber](pkg/math/singleNumber.go): `math`
 - [x] [0146-lruCache](pkg/links/lruCache.go): `link`, `cache`, `lru`

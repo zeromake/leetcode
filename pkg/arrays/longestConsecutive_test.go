@@ -20,7 +20,6 @@ func TestLongestConsecutive(t *testing.T) {
 		rr := LongestConsecutive2(r)
 		assert.Equal(t, rr, result[i])
 
-
 		rr = LongestConsecutive(r)
 		assert.Equal(t, rr, result[i])
 	}
