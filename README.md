@@ -170,6 +170,7 @@
 - [x] [0914-hasGroupsSizeX](pkg/arrays/hasGroupsSizeX.go): `array`, `group`, `gcd`
 - [x] [0945-minIncrementForUnique](pkg/arrays/minIncrementForUnique.go): `sum`, `array`
 - [x] [0983-mincostTickets](pkg/arrays/mincostTickets.go): `array`, `dp`
+- [x] [0990-equationsPossible](pkg/arrays/equationsPossible.go): `array`, `string`
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [0999-numRookCaptures](pkg/matrix/numRookCaptures.go): `matrix`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
