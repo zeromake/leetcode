@@ -191,6 +191,7 @@
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-29-spiralOrder](pkg/matrix/spiralOrder.go): `matrix`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
+- [x] [面试题-46-translateNum](pkg/math/translateNum.go): `number`, `backtracking`
 - [x] [面试题-51-reversePairs](pkg/arrays/reversePairs.go): `array`
 - [x] [面试题-56-singleNumbers](pkg/math/singleNumbers.go): `number`, `math`, `bit`
 - [x] [面试题-57-II-findContinuousSequence](pkg/math/findContinuousSequence.go): `arithmetic-progression`

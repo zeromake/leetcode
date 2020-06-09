@@ -16,16 +16,28 @@ func TestFindLadders(t *testing.T) {
 		{"hot", "dot", "dog", "lot", "log"},
 		{"cog"},
 	}
-	result := [][][]string{
+	result := [][][][]string{
 		{
-			{"hit", "hot", "dot", "dog", "cog"},
-			{"hit", "hot", "lot", "log", "cog"},
+			{
+				{"hit", "hot", "dot", "dog", "cog"},
+				{"hit", "hot", "lot", "log", "cog"},
+			},
+			{
+				{"hit", "hot", "lot", "log", "cog"},
+				{"hit", "hot", "dot", "dog", "cog"},
+			},
 		},
-		nil,
-		nil,
+		{nil},
+		{nil},
 	}
 	for i, r := range words {
 		rr := FindLadders(r[0], r[1], wordLists[i])
-		assert.Equal(t, rr, result[i])
+		flag := false
+		for _, i := range result[i] {
+			flag = flag || assert.ObjectsAreEqual(rr, i)
+		}
+		if !flag {
+			t.Fatal(rr, result[i])
+		}
 	}
 }

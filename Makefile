@@ -9,5 +9,5 @@ cover-html: cover
 	go tool cover -html=coverage/coverage.cov -o coverage/coverage.html
 
 bench:
-	go test -bench=. -benchmem ./...
+	go test -bench=. -benchmem -run=none -benchtime=3s ./...
 
