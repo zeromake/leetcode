@@ -123,6 +123,7 @@
 - [x] [0117-connect-II](pkg/trees/connect.go): `tree`, `bfs`
 - [x] [0118-generateTriangle](pkg/arrays/generateTriangle.go): `array`
 - [x] [0119-getRowTriangle](pkg/arrays/getRowTriangle.go): `array`
+- [x] [0120-minimumTotal](pkg/arrays/minimumTotal.go): `array`, `dp`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0122-maxProfitII](pkg/arrays/maxProfitII.go): `array`
 - [x] [0122-maxProfitIII](pkg/arrays/maxProfitIII.go): `array`
