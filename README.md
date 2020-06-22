@@ -192,6 +192,7 @@
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-13-movingCount](pkg/matrix/movingCount.go): `dp`
 - [x] [面试题-16.03-intersection](pkg/math/intersection.go): `math`
+- [x] [面试题-16.18-patternMatching](pkg/strings/patternMatching.go): `string`
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-29-spiralOrder](pkg/matrix/spiralOrder.go): `matrix`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
