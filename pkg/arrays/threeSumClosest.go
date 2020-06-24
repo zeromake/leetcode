@@ -1,8 +1,9 @@
 package arrays
 
 import (
-	"math"
 	"sort"
+
+	"github.com/zeromake/leetcode/pkg/utils"
 )
 
 // ThreeSumClosest 最接近的三数之和 https://leetcode-cn.com/problems/3sum-closest/
@@ -27,7 +28,7 @@ func ThreeSumClosest(nums []int, target int) int {
 			} else {
 				left++
 			}
-			if math.Abs(float64(sum-target)) < math.Abs(float64(closest-target)) {
+			if utils.DistanceInt(sum, target) < utils.DistanceInt(closest, target) {
 				closest = sum
 			}
 		}
