@@ -123,6 +123,7 @@
 - [x] [0117-connect-II](pkg/trees/connect.go): `tree`, `bfs`
 - [x] [0118-generateTriangle](pkg/arrays/generateTriangle.go): `array`
 - [x] [0119-getRowTriangle](pkg/arrays/getRowTriangle.go): `array`
+- [x] [0120-minimumTotal](pkg/arrays/minimumTotal.go): `array`, `dp`
 - [x] [0121-maxProfit](pkg/arrays/maxProfit.go): `array`
 - [x] [0122-maxProfitII](pkg/arrays/maxProfitII.go): `array`
 - [x] [0122-maxProfitIII](pkg/arrays/maxProfitIII.go): `array`
@@ -163,6 +164,7 @@
 - [x] [0572-isSubtree](pkg/trees/isSubtree.go): `tree`, `dfs`
 - [x] [0680-validPalindrome](pkg/strings/validPalindrome.go): `string`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
+- [x] [0739-dailyTemperatures](pkg/arrays/dailyTemperatures.go): `array`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0837-new21Game](pkg/math/new21Game.go): `dp`
@@ -177,6 +179,8 @@
 - [x] [0994-orangesRotting](pkg/matrix/orangesRotting.go): `matrix`, `bfs`
 - [x] [0999-numRookCaptures](pkg/matrix/numRookCaptures.go): `matrix`
 - [x] [1013-canThreePartsEqualSum](pkg/arrays/canThreePartsEqualSum.go): `array`, `ptr`
+- [x] [1014-maxScoreSightseeingPair](pkg/arrays/maxScoreSightseeingPair.go): `array`, `dp`
+- [x] [1028-recoverFromPreorder](pkg/trees/recoverFromPreorder.go): `tree`, ``
 - [x] [1095-findInMountainArray](pkg/arrays/findInMountainArray.go): `array`, `binary-search`
 - [x] [1103-distributeCandies](pkg/math/distributeCandies.go): `math`, `arithmetic-progression`
 - [x] [1111-maxDepthAfterSplit](pkg/strings/maxDepthAfterSplit.go): `string`
@@ -191,6 +195,7 @@
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-13-movingCount](pkg/matrix/movingCount.go): `dp`
 - [x] [面试题-16.03-intersection](pkg/math/intersection.go): `math`
+- [x] [面试题-16.18-patternMatching](pkg/strings/patternMatching.go): `string`
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
 - [x] [面试题-29-spiralOrder](pkg/matrix/spiralOrder.go): `matrix`
 - [x] [面试题-40-getLeastNumbers](pkg/arrays/getLeastNumbers.go): `array`
