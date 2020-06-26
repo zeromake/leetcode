@@ -132,6 +132,8 @@
 - [x] [0126-findLadders](pkg/strings/findLadders.go): `string`, `backtracking`
 - [x] [0128-longestConsecutive](pkg/arrays/longestConsecutive.go): `array`, `set`
 - [x] [0136-singleNumber](pkg/math/singleNumber.go): `math`
+- [x] [0141-hasCycle](pkg/links/hasCycle.go): `link`
+- [x] [0143-reorderList](pkg/links/reorderList.go): `link`
 - [x] [0146-lruCache](pkg/links/lruCache.go): `link`, `cache`, `lru`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0152-maxProduct](pkg/arrays/maxProduct.go): `array`
@@ -188,6 +190,7 @@
 - [x] [1431-kidsWithCandies](pkg/arrays/kidsWithCandies.go): `array`
 - [x] [面试题-01.06-compressString](pkg/strings/compressString.go): `string`, `compress`
 - [x] [面试题-01.07-rotate](pkg/matrix/rotate.go): `rotate`, `matrix`
+- [x] [面试题-02.01-removeDuplicateNodes](pkg/links/removeDuplicateNodes.go): `link`
 - [x] [面试题-08.11-waysToChange](pkg/math/waysToChange.go): `math`
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-13-movingCount](pkg/matrix/movingCount.go): `dp`

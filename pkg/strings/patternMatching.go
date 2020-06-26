@@ -1,6 +1,5 @@
 package strings
 
-
 // PatternMatching 模式匹配 https://leetcode-cn.com/problems/pattern-matching-lcci/
 func PatternMatching(pattern string, value string) bool {
 	m, n := 0, 0
