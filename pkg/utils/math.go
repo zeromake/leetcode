@@ -32,3 +32,10 @@ func Factorial(n int) int {
 	}
 	return result
 }
+
+func DistanceInt(a, b int) int {
+	if a < b {
+		return b - a
+	}
+	return a - b
+}
