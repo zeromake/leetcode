@@ -148,6 +148,7 @@
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
 - [x] [0209-minSubArrayLen](pkg/arrays/minSubArrayLen.go): `array`
 - [x] [0210-findOrder](pkg/arrays/findOrder.go): `array`, `topological-sort`
+- [x] [0215-findKthLargest](pkg/arrays/findKthLargest.go): `array`, `heap`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
 - [x] [0236-lowestCommonAncestor](pkg/trees/lowestCommonAncestor.go): `tree`, `bfs`, `dfs`
 - [x] [0238-productExceptSelf](pkg/arrays/productExceptSelf.go): `array`, `math`
