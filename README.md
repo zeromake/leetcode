@@ -158,6 +158,7 @@
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
+- [x] [0378-kthSmallest](pkg/matrix/kthSmallest.go): `matrix`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
 - [x] [0445-addTowNumberII](pkg/links/addTwoNumbersII.go): `link`, `add`
 - [x] [0466-getMaxRepetitions](pkg/strings/getMaxRepetitions.go): `string`
