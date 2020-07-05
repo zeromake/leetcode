@@ -23,11 +23,16 @@ func TestIsMatchWildcard(t *testing.T) {
 			"a",
 			"a***",
 		},
+		{
+			"ab",
+			"?*",
+		},
 	}
 	result := []bool{
 		false,
 		true,
 		false,
+		true,
 		true,
 	}
 	for i, r := range strs {
