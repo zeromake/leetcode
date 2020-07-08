@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestReflectValue(t *testing.T)  {
+func TestReflectValue(t *testing.T) {
 	var num1 int
 	var num2 int
 	rValue1 := reflect.ValueOf(num1)
@@ -15,4 +15,3 @@ func TestReflectValue(t *testing.T)  {
 	rValue2.SetInt(5)
 	t.Log(num2)
 }
-
