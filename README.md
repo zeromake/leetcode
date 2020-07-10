@@ -155,6 +155,7 @@
 - [x] [0287-findDuplicate](pkg/arrays/findDuplicate.go): `array`, `duplicate`
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
+- [x] [0309-maxProfitWithCooldown](pkg/arrays/maxProfitWithCooldown.go): `array`, `dp`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`

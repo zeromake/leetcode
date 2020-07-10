@@ -7,7 +7,7 @@ import (
 
 func TestRespace(t *testing.T) {
 	dictionary := [][]string{
-		{"looked","just","like","her","brother"},
+		{"looked", "just", "like", "her", "brother"},
 	}
 	sentence := []string{
 		"jesslookedjustliketimherbrother",
