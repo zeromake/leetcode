@@ -159,6 +159,7 @@
 - [x] [0309-maxProfitWithCooldown](pkg/arrays/maxProfitWithCooldown.go): `array`, `dp`
 - [x] [0315-countSmaller](pkg/arrays/countSmaller.go): `array`, `sort`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
+- [x] [0350-intersect](pkg/arrays/intersect.go): `array`, `map`
 - [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0378-kthSmallest](pkg/matrix/kthSmallest.go): `matrix`
@@ -204,6 +205,7 @@
 - [x] [面试题-10.01-sortedMerge](pkg/arrays/merge.go): `array`, `index`
 - [x] [面试题-13-movingCount](pkg/matrix/movingCount.go): `dp`
 - [x] [面试题-16.03-intersection](pkg/math/intersection.go): `math`
+- [x] [面试题-16.11-divingBoard](pkg/math/divingBoard.go): `math`
 - [x] [面试题-16.18-patternMatching](pkg/strings/patternMatching.go): `string`
 - [x] [面试题-17.13-respace](pkg/strings/respace.go): `string`
 - [x] [面试题-17.16-massage](pkg/arrays/massage.go): `array`, `sum`
