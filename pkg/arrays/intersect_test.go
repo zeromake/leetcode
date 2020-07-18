@@ -17,12 +17,21 @@ func TestIntersect(t *testing.T) {
 			{9, 4, 9, 8, 4},
 		},
 	}
-	result := [][]int{
-		{2, 2},
-		{4, 9},
+	result := [][][]int{
+		{
+			{2, 2},
+		},
+		{
+			{4, 9},
+			{9, 4},
+		},
 	}
 	for i, r := range nums {
 		rr := Intersect(r[0], r[1])
-		assert.Equal(t, rr, result[i])
+		flag := false
+		for _, res := range result[i] {
+			flag = flag || assert.ObjectsAreEqual(rr, res)
+		}
+		assert.Equal(t, flag, true)
 	}
 }

@@ -174,6 +174,7 @@
 - [x] [0680-validPalindrome](pkg/strings/validPalindrome.go): `string`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0739-dailyTemperatures](pkg/arrays/dailyTemperatures.go): `array`
+- [x] [0785-isBipartite](pkg/matrix/isBipartite.go): `matrix`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0837-new21Game](pkg/math/new21Game.go): `dp`
