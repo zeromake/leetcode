@@ -140,6 +140,7 @@
 - [x] [0146-lruCache](pkg/links/lruCache.go): `link`, `cache`, `lru`
 - [x] [0151-reverseWords](pkg/strings/reverseWords.go): `string`
 - [x] [0152-maxProduct](pkg/arrays/maxProduct.go): `array`
+- [x] [0167-towSumII](pkg/arrays/towSumII.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0174-calculateMinimumHP](pkg/matrix/calculateMinimumHP.go): `matrix`, `dp`
 - [x] [0198-rob](pkg/arrays/rob.go): `array`, `dp`
@@ -157,6 +158,7 @@
 - [x] [0289-gameOfLife](pkg/matrix/gameOfLife.go): `matrix`
 - [x] [0300-lengthOfLIS](pkg/arrays/lengthOfLIS.go): `array`
 - [x] [0309-maxProfitWithCooldown](pkg/arrays/maxProfitWithCooldown.go): `array`, `dp`
+- [x] [0312-maxCoins](pkg/arrays/maxCoins.go): `array`, `dp`
 - [x] [0315-countSmaller](pkg/arrays/countSmaller.go): `array`, `sort`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
 - [x] [0350-intersect](pkg/arrays/intersect.go): `array`, `map`
