@@ -135,6 +135,7 @@
 - [x] [0130-solve](pkg/matrix/solve.go): `matrix`, `dfs`
 - [x] [0136-singleNumber](pkg/math/singleNumber.go): `math`
 - [x] [0141-hasCycle](pkg/links/hasCycle.go): `link`
+- [x] [0142-detectCycle](pkg/links/detectCycle.go): `link`
 - [x] [0143-reorderList](pkg/links/reorderList.go): `link`
 - [x] [0144-preOrderTraversal](pkg/trees/preOrderTraversal.go): `tree`, `loop`, `stack`
 - [x] [0146-lruCache](pkg/links/lruCache.go): `link`, `cache`, `lru`

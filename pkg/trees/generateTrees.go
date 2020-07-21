@@ -1,5 +1,13 @@
 package trees
 
+// GenerateTrees https://leetcode-cn.com/problems/unique-binary-search-trees-ii
+func GenerateTrees(n int) []*TreeNode {
+	if n == 0 {
+		return nil
+	}
+	return generateTrees(1, n)
+}
+
 func generateTrees(start, end int) []*TreeNode {
 	var trees []*TreeNode
 	if start > end {
@@ -19,12 +27,4 @@ func generateTrees(start, end int) []*TreeNode {
 		}
 	}
 	return trees
-}
-
-// GenerateTrees https://leetcode-cn.com/problems/unique-binary-search-trees-ii
-func GenerateTrees(n int) []*TreeNode {
-	if n == 0 {
-		return nil
-	}
-	return generateTrees(1, n)
 }
