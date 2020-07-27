@@ -14,20 +14,20 @@ func TestDetectCycle(t *testing.T) {
 		},
 	}
 	tow := &ListNode{
-		Val: -4,
+		Val:  -4,
 		Next: one,
 	}
 	one.Next.Next = tow
 	links := []*ListNode{
 		{
-			Val: 3,
+			Val:  3,
 			Next: one,
 		},
 		nil,
 	}
 	result := []*ListNode{
 		{
-			Val: 2,
+			Val:  2,
 			Next: nil,
 		},
 		nil,

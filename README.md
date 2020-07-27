@@ -166,7 +166,9 @@
 - [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
 - [x] [0365-canMeasureWater](pkg/math/canMeasureWater.go): `math`, `gcd`
 - [x] [0378-kthSmallest](pkg/matrix/kthSmallest.go): `matrix`
+- [x] [0392-IsSubsequence](pkg/strings/isSubsequence.go): `string`
 - [x] [0409-longestPalindrome](pkg/strings/longestPalindrome.go): `string`, `palindrome`
+- [x] [0410-splitArray](pkg/arrays/splitArray.go): `array`, `dp`
 - [x] [0445-addTowNumberII](pkg/links/addTwoNumbersII.go): `link`, `add`
 - [x] [0466-getMaxRepetitions](pkg/strings/getMaxRepetitions.go): `string`
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
