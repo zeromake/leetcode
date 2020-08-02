@@ -176,6 +176,7 @@
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
 - [x] [0560-subArraySum](pkg/arrays/subArraySum.go): `array`
 - [x] [0572-isSubtree](pkg/trees/isSubtree.go): `tree`, `dfs`
+- [x] [0632-smallestRange](pkg/arrays/smallestRange.go): `array`, `heap`
 - [x] [0680-validPalindrome](pkg/strings/validPalindrome.go): `string`
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0739-dailyTemperatures](pkg/arrays/dailyTemperatures.go): `array`
