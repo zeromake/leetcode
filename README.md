@@ -149,6 +149,7 @@
 - [x] [0200-numIslands](pkg/matrix/numIslands.go): `matrix`, `land`
 - [x] [0202-isHappy](pkg/math/isHappy.go): `number`, `math`
 - [x] [0206-reverseList](pkg/links/reverseList.go): `reverse`, `link`
+- [x] [0207-canFinish](pkg/graph/canFinish.go): `graph`
 - [x] [0209-minSubArrayLen](pkg/arrays/minSubArrayLen.go): `array`
 - [x] [0210-findOrder](pkg/arrays/findOrder.go): `array`, `topological-sort`
 - [x] [0215-findKthLargest](pkg/arrays/findKthLargest.go): `array`, `heap`
