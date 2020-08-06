@@ -163,6 +163,7 @@
 - [x] [0312-maxCoins](pkg/arrays/maxCoins.go): `array`, `dp`
 - [x] [0315-countSmaller](pkg/arrays/countSmaller.go): `array`, `sort`
 - [x] [0322-coinChange](pkg/math/coinChange.go): `math`
+- [x] [0336-palindromePairs](pkg/strings/palindromePairs.go): `string`, `map`
 - [x] [0337-rob](pkg/trees/rob.go): `tree`, `dfs`
 - [x] [0350-intersect](pkg/arrays/intersect.go): `array`, `map`
 - [x] [0355-twtter](pkg/stacks/twtter.go): `twtter`
