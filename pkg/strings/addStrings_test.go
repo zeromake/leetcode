@@ -11,8 +11,13 @@ func TestAddStrings(t *testing.T) {
 			"98",
 			"9",
 		},
+		{
+			"9",
+			"98",
+		},
 	}
 	result := []string{
+		"107",
 		"107",
 	}
 	for i, r := range strings {
