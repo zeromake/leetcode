@@ -179,6 +179,7 @@
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
 - [x] [0542-updateMatrix](pkg/matrix/updateMatrix.go): `matrix`, `dp`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
+- [x] [0546-removeBoxes](pkg/arrays/removeBoxes.go): `array`, `dp`
 - [x] [0560-subArraySum](pkg/arrays/subArraySum.go): `array`
 - [x] [0572-isSubtree](pkg/trees/isSubtree.go): `tree`, `dfs`
 - [x] [0632-smallestRange](pkg/arrays/smallestRange.go): `array`, `heap`
