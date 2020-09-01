@@ -178,6 +178,7 @@
 - [x] [0445-addTowNumberII](pkg/links/addTwoNumbersII.go): `link`, `add`
 - [x] [0466-getMaxRepetitions](pkg/strings/getMaxRepetitions.go): `string`
 - [x] [0460-lfuCache](pkg/links/lfuCache.go): `cache`, `map`, `link`, `lfu`
+- [x] [0486-predictTheWinner](pkg/arrays/predictTheWinner.go): `array`, `dp`
 - [x] [0529-updateBoard](pkg/matrix/updateBoard.go): `matrix`, `dfs`
 - [x] [0542-updateMatrix](pkg/matrix/updateMatrix.go): `matrix`, `dp`
 - [x] [0543-diameterOfBinaryTree](pkg/trees/diameterOfBinaryTree.go): `array`, `dfs`
