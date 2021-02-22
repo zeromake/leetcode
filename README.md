@@ -191,6 +191,7 @@
 - [x] [0695-maxAreaOfIsland](pkg/matrix/maxAreaOfIsland.go): `matrix`, `dfs`
 - [x] [0696-countBinarySubstrings](pkg/strings/countBinarySubstrings.go): `string`
 - [x] [0739-dailyTemperatures](pkg/arrays/dailyTemperatures.go): `array`
+- [x] [0766-isToeplitzMatrix](pkg/matrix/isToeplitzMatrix.go): `matrix`
 - [x] [0785-isBipartite](pkg/matrix/isBipartite.go): `matrix`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
