@@ -194,6 +194,7 @@
 - [x] [0766-isToeplitzMatrix](pkg/matrix/isToeplitzMatrix.go): `matrix`
 - [x] [0785-isBipartite](pkg/matrix/isBipartite.go): `matrix`
 - [x] [0820-minimumLengthEncoding](pkg/strings/minimumLengthEncoding.go): `array`, `encode`
+- [x] [0832-flipAndInvertImage](pkg/matrix/flipAndInvertImage.go): `matrix`
 - [x] [0836-isRectangleOverlap](pkg/matrix/isRectangleOverlap.go): `matrix`, `overlap`
 - [x] [0837-new21Game](pkg/math/new21Game.go): `dp`
 - [x] [0841-canVisitAllRooms](pkg/matrix/canVisitAllRooms.go): `bfs`
