@@ -155,6 +155,7 @@
 - [x] [0210-findOrder](pkg/arrays/findOrder.go): `array`, `topological-sort`
 - [x] [0215-findKthLargest](pkg/arrays/findKthLargest.go): `array`, `heap`
 - [x] [0217-containsDuplicate](pkg/arrays/containsDuplicate.go): `array`, `duplicate`
+- [x] [0224-calculate](pkg/math/calculate.go): `string`, `calculate`
 - [x] [0236-lowestCommonAncestor](pkg/trees/lowestCommonAncestor.go): `tree`, `bfs`, `dfs`
 - [x] [0238-productExceptSelf](pkg/arrays/productExceptSelf.go): `array`, `math`
 - [x] [0287-findDuplicate](pkg/arrays/findDuplicate.go): `array`, `duplicate`
