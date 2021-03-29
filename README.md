@@ -145,6 +145,7 @@
 - [x] [0167-towSumII](pkg/arrays/towSumII.go): `array`
 - [x] [0169-majorityElement](pkg/arrays/majorityElement.go): `math`, `array`
 - [x] [0174-calculateMinimumHP](pkg/matrix/calculateMinimumHP.go): `matrix`, `dp`
+- [x] [0190-reverseBits](pkg/math/reverseBits.go): `bit`
 - [x] [0198-rob](pkg/arrays/rob.go): `array`, `dp`
 - [x] [0199-rightSideView](pkg/trees/rightSideView.go): `tree`, `bfs`
 - [x] [0200-numIslands](pkg/matrix/numIslands.go): `matrix`, `land`
